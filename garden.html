@@ -18,11 +18,15 @@ footer{text-align:center;padding:28px;border-top:1px solid #dedbd2;background:#f
 .visual-card{padding:0!important;overflow:hidden;background:#fff;display:block}
 .visual-card img{width:100%;height:100%;aspect-ratio:1/1;object-fit:cover;display:block;border-radius:14px}
 .visual-card:hover img{transform:scale(1.015);transition:.2s ease}
+
+.visual-card.visual-card-with-label{display:flex;flex-direction:column;height:auto!important}
+.visual-card.visual-card-with-label img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:14px 14px 0 0}
+.visual-card-label{padding:13px 8px 15px;text-align:center;font-size:18px;font-weight:700;color:#344b35;background:#fff}
 </style></head><body>
 <header><div class="nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav><a href="index.html">ホーム</a><a href="garden.html">庭・植物</a><a href="kijoran.html">映画</a><a href="#">ドラマ</a><a href="#">本・小説</a></nav></div></header>
 <section class="pagehero"><h1>🌿 庭・植物</h1><p>育てている植物の成長と、庭での出来事を記録します。</p></section><main class="wrap">
 <div class="title"><h2>My Plants</h2><p>植物ごとの記録</p></div><div class="grid">
-<a class="card visual-card" href="fujibakama.html" aria-label="フジバカマ 4種類の記録"><img src="fujibakama-category.jpg" alt="フジバカマ4種類"></a>
+<a class="card visual-card visual-card-with-label" href="fujibakama.html" aria-label="フジバカマ 4種類の記録"><img src="fujibakama-category.jpg" alt="フジバカマ4種類"><div class="visual-card-label">フジバカマ</div></a>
 <a class="card" href="eupatorium.html"><div class="ico">🌿</div><h3>ユーパトリウム</h3><p>3種類の記録</p></a>
 <a class="card" href="kijoran.html"><div class="ico">🌱</div><h3>キジョラン</h3><p>葉・つる・冬越し</p></a>
 <a class="card" href="kintokiso.html"><div class="ico">🌿</div><h3>金時草</h3><p>生育・収穫</p></a>
