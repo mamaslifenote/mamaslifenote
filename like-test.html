@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>いいね動作テスト｜Mama's LIFE NOTE</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Yu Gothic",Meiryo,sans-serif;background:#fbfaf7;color:#333;padding:40px}
+.wrap{max-width:720px;margin:auto;background:#fff;border:1px solid #e8e3da;border-radius:18px;padding:34px}
+.like-row{display:flex;align-items:center;gap:12px;margin-top:24px}
+.like-btn{appearance:none;border:1px solid #e2d9d0;background:#fff;border-radius:999px;padding:10px 18px;font-size:16px;cursor:pointer;transition:.2s}
+.like-btn:hover{transform:translateY(-1px);box-shadow:0 5px 16px rgba(0,0,0,.06)}
+.like-btn.liked{background:#fff2f4;border-color:#efb7c1}
+.like-count{font-weight:700}
+.msg{font-size:13px;color:#777;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>♡ いいね 動作テスト</h1>
+  <p>このページは、Mama's LIFE NOTE と Supabase の接続確認用です。</p>
+
+  <div class="like-row">
+    <button id="likeButton" class="like-btn" type="button">♡ いいね</button>
+    <span><span id="likeCount" class="like-count">0</span> 件</span>
+  </div>
+  <div id="message" class="msg"></div>
+</div>
+
+<script>
+const SUPABASE_URL = "https://bbyauxdtoorummtgnkzj.supabase.co";
+const SUPABASE_KEY = "sb_publishable_8_Zj5218vMCffmxKOenXCA_K6VtrlPQ";
+const ARTICLE_ID = "like-test-page";
+const STORAGE_KEY = "mamas-life-note-liked:" + ARTICLE_ID;
+
+async function loadLikes() {
+  const url = `${SUPABASE_URL}/rest/v1/article_likes?article_id=eq.${encodeURIComponent(ARTICLE_ID)}&select=likes`;
+  const res = await fetch(url, {
+    headers: { "apikey": SUPABASE_KEY }
+  });
+  if (!res.ok) throw new Error("いいね数を取得できませんでした");
+  const data = await res.json();
+  document.getElementById("likeCount").textContent = data.length ? data[0].likes : 0;
+}
+
+async function addLike() {
+  if (localStorage.getItem(STORAGE_KEY)) return;
+
+  const btn = document.getElementById("likeButton");
+  btn.disabled = true;
+
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/rpc/add_like`, {
+    method: "POST",
+    headers: {
+      "apikey": SUPABASE_KEY,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({ p_article_id: ARTICLE_ID })
+  });
+
+  if (!res.ok) {
+    btn.disabled = false;
+    document.getElementById("message").textContent = "いいねを送信できませんでした。";
+    return;
+  }
+
+  const newCount = await res.json();
+  localStorage.setItem(STORAGE_KEY, "1");
+  document.getElementById("likeCount").textContent = newCount;
+  btn.textContent = "♥ いいね済み";
+  btn.classList.add("liked");
+  document.getElementById("message").textContent = "ありがとうございます。";
+}
+
+const btn = document.getElementById("likeButton");
+if (localStorage.getItem(STORAGE_KEY)) {
+  btn.textContent = "♥ いいね済み";
+  btn.classList.add("liked");
+  btn.disabled = true;
+} else {
+  btn.addEventListener("click", addLike);
+}
+
+loadLikes().catch(() => {
+  document.getElementById("message").textContent = "いいね数を取得できませんでした。";
+});
+</script>
+</body>
+</html>
