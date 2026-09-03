@@ -33,22 +33,17 @@ section.content h2{font-size:23px;margin:0 0 12px;border-left:4px solid #a1332e;
 footer{text-align:center;padding:28px;border-top:1px solid #e9e5dc;color:#888;font-size:12px;background:#fff}
 @media(max-width:650px){.nav{flex-direction:column}main{padding:28px 14px 55px}.article-head,section.content{padding:24px 20px}h1{font-size:27px}}
 
-/* VIVANT各話・記事下部共通 */
-.like-section{margin-top:26px;padding:22px;border:1px solid #eadfce;border-radius:18px;background:#fff}
-.like-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-#likeBtn{border:1px solid #efb9c1;background:#fff7f8;color:#c36e7b;border-radius:24px;padding:10px 18px;font-size:15px;cursor:pointer}
-#likeBtn:hover{background:#fff0f2}
-#likeBtn:disabled{cursor:default;opacity:.7}
-.like-count{font-weight:700;font-size:17px}
-.like-thanks{margin:12px 0 0;color:#8f877f;font-size:13px}
-.next-episode{margin-top:14px;padding:22px;border:1px solid #eadfce;border-radius:18px;background:#fff;display:flex;justify-content:space-between;gap:18px;align-items:center}
-.next-episode .next-title{font-weight:700;font-size:17px}
-.next-episode .next-sub{margin-top:8px;color:#9a948c;font-size:13px}
-.next-episode .next-link{white-space:nowrap}
-.related-box{margin-top:26px;padding:20px 22px;border-radius:18px;background:#f7f3eb}
-.related-box h3{margin:0 0 12px;font-size:16px}
-.related-box p{margin:8px 0}
-
+/* VIVANT_BOTTOM_EXACT_V2 */
+.likebox{background:#fff;border:1px solid #ebe6dc;border-radius:18px;padding:22px 26px;margin-top:24px}
+.like-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.like-btn{appearance:none;border:1px solid #e2d9d0;background:#fff;border-radius:999px;padding:10px 18px;font-size:16px;cursor:pointer}
+.like-btn.liked{background:#fff2f4;border-color:#efb7c1}
+.like-count{font-weight:700}
+.like-msg{font-size:13px;color:#777;margin-top:8px}
+.next-episode{margin-top:14px;background:#fff;border:1px solid #e5ddd2;border-radius:16px;padding:18px 22px;display:flex;justify-content:space-between;align-items:center;gap:14px;text-decoration:none;opacity:.72}
+.next-episode strong{font-size:17px}
+.next-episode span{font-size:13px;color:#777}
+.related{margin-top:26px;background:#f5f2eb;border-radius:16px;padding:18px 22px}
 </style></head><body>
 <header><div class="nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav><a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物</a><a href="#">🎬 映画</a><a href="drama.html">📺 ドラマ</a><a href="#">📚 本・小説</a></nav></div></header>
 <main><div class="breadcrumb"><a href="index.html">ホーム</a> ＞ <a href="drama.html">ドラマ</a> ＞ <a href="vivant.html">VIVANT</a> ＞ <a href="vivant-series2.html">シリーズ2</a> ＞ 第4話</div>
@@ -75,36 +70,57 @@ footer{text-align:center;padding:28px;border-top:1px solid #e9e5dc;color:#888;fo
 <p>そのため、第14話終了時点では、<strong>「新庄は本当に死んだのか？」</strong>という疑問も残ります。</p>
 <p>そして最後は乃木と東条。ここまで乃木を支えてきた公安の人間まで疑わなければならなくなりました。第2シリーズは、前作以上に<strong>「誰が味方で、誰が敵なのか」</strong>が分からない。その中心にいるのが、野崎と乃木です。</p>
 <p>第15話では、乃木が東条から何を聞き出すのか、そして野崎がシンシー内部で何を探しているのかが大きなポイントになりそうです。さらに、前作の重要人物<strong>チンギス</strong>の本格登場にも注目です。</p></section>
-<div class="related"><strong>⭐ お気に入り・おすすめ</strong><br><a href="vivant.html">VIVANT作品トップ</a> ｜ <a href="vivant-series2.html">第2シリーズ一覧</a> ｜ <a href="drama-favorites.html">お気に入り・おすすめ</a></div>
-<div class="likebox"><div class="like-row"><button id="likeBtn" class="like-btn" type="button">♡ いいね</button><span id="likeCount" class="like-count">0件</span></div><div id="likeMsg" class="like-msg"></div></div>
-<div class="next-episode"><div><strong>第5話はこちら →</strong><br><span><a href="vivant-s2-ep5.html">第15話はこちら →</a></span></div><div>準備中</div></div>
 
-<section class="like-section">
-  <div class="like-row">
-    <button id="likeBtn">♡ この記事にいいね</button>
-    <span class="like-count"><span id="likeCount">0</span>件</span>
-  </div>
-  <p class="like-thanks">ありがとうございます。</p>
+<section class="likebox">
+<div class="like-row"><button id="likeButton" class="like-btn" type="button">♡ いいね</button><span><span id="likeCount" class="like-count">0</span> 件</span></div>
+<div id="likeMessage" class="like-msg"></div>
 </section>
-
-<section class="next-episode">
-  <div>
-    <div class="next-title">第5話はこちら →</div>
-    <div class="next-sub">第15話</div>
-  </div>
-  <a class="next-link" href="vivant-s2-ep5.html">読む →</a>
-</section>
-<section class="related-box"><h3>関連記事</h3><p><a href="vivant-s2-ep3.html">← 第3話（第13話）を見る</a></p><p><a href="vivant-series2.html">← VIVANT シリーズ2の各話一覧へ戻る</a></p></section></article></main><footer>© Mama's LIFE NOTE</footer>
+<a class="next-episode" href="vivant-s2-ep5.html"><div><strong>第5話はこちら →</strong><br><span>第15話のあらすじ・伏線・考察へ</span></div><div>次の話へ</div></a>
+<div class="related"><strong>関連記事</strong><br><a href="vivant-series2.html">← VIVANT シリーズ2の各話一覧へ戻る</a></div>
+</article></main><footer>© Mama's LIFE NOTE</footer>
 <script>
 const SUPABASE_URL="https://bbyauxdtoorummtgnkzj.supabase.co";
 const SUPABASE_KEY="sb_publishable_8_Zj5218vMCffmxKOenXCA_K6VtrlPQ";
 const ARTICLE_ID="vivant-s2-ep4";
-const btn=document.getElementById("likeBtn"), countEl=document.getElementById("likeCount"), msg=document.getElementById("likeMsg");
-const localKey="mamas-life-note-liked:"+ARTICLE_ID;
+const STORAGE_KEY="mamas-life-note-liked:"+ARTICLE_ID;
 async function loadLikes(){
- try{const r=await fetch(`${SUPABASE_URL}/rest/v1/article_likes?article_id=eq.${encodeURIComponent(ARTICLE_ID)}&select=likes`,{headers:{apikey:SUPABASE_KEY,Authorization:`Bearer ${SUPABASE_KEY}`}});const d=await r.json();countEl.textContent=((d&&d[0]&&d[0].likes)||0)+"件";}catch(e){countEl.textContent="—";}
- if(localStorage.getItem(localKey)){btn.textContent="♥ いいね済み";btn.classList.add("liked");btn.disabled=true;}
+  const u=`${SUPABASE_URL}/rest/v1/article_likes?article_id=eq.${encodeURIComponent(ARTICLE_ID)}&select=likes`;
+  const r=await fetch(u,{headers:{"apikey":SUPABASE_KEY}});
+  if(!r.ok) throw new Error();
+  const d=await r.json();
+  document.getElementById("likeCount").textContent=d.length?d[0].likes:0;
 }
-btn.addEventListener("click",async()=>{btn.disabled=true;try{const r=await fetch(`${SUPABASE_URL}/rest/v1/rpc/add_like`,{method:"POST",headers:{apikey:SUPABASE_KEY,Authorization:`Bearer ${SUPABASE_KEY}`,"Content-Type":"application/json"},body:JSON.stringify({p_article_id:ARTICLE_ID})});const d=await r.json();countEl.textContent=d+"件";localStorage.setItem(localKey,"1");btn.textContent="♥ いいね済み";btn.classList.add("liked");msg.textContent="ありがとうございます。";}catch(e){btn.disabled=false;msg.textContent="通信に失敗しました。";}});
-loadLikes();
-</script></body></html>
+async function addLike(){
+  if(localStorage.getItem(STORAGE_KEY)) return;
+  const b=document.getElementById("likeButton");
+  b.disabled=true;
+  const r=await fetch(`${SUPABASE_URL}/rest/v1/rpc/add_like`,{
+    method:"POST",
+    headers:{"apikey":SUPABASE_KEY,"Content-Type":"application/json"},
+    body:JSON.stringify({p_article_id:ARTICLE_ID})
+  });
+  if(!r.ok){
+    b.disabled=false;
+    document.getElementById("likeMessage").textContent="いいねを送信できませんでした。";
+    return;
+  }
+  const n=await r.json();
+  localStorage.setItem(STORAGE_KEY,"1");
+  document.getElementById("likeCount").textContent=n;
+  b.textContent="♥ いいね済み";
+  b.classList.add("liked");
+  document.getElementById("likeMessage").textContent="ありがとうございます。";
+}
+const b=document.getElementById("likeButton");
+if(localStorage.getItem(STORAGE_KEY)){
+  b.textContent="♥ いいね済み";
+  b.classList.add("liked");
+  b.disabled=true;
+}else{
+  b.addEventListener("click",addLike);
+}
+loadLikes().catch(()=>{
+  document.getElementById("likeMessage").textContent="いいね数を取得できませんでした。";
+});
+</script>
+</body></html>
