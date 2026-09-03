@@ -35,6 +35,23 @@ section.content h2{font-size:23px;margin:0 0 12px;border-left:4px solid #a1332e;
 .related{margin-top:26px;background:#f5f2eb;border-radius:16px;padding:18px 22px}
 footer{text-align:center;padding:28px;border-top:1px solid #e9e5dc;color:#888;font-size:12px;background:#fff}
 @media(max-width:650px){.nav{flex-direction:column}main{padding:28px 14px 55px}.article-head,section.content{padding:24px 20px}h1{font-size:27px}}
+
+/* VIVANT各話・記事下部共通 */
+.like-section{margin-top:26px;padding:22px;border:1px solid #eadfce;border-radius:18px;background:#fff}
+.like-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+#likeBtn{border:1px solid #efb9c1;background:#fff7f8;color:#c36e7b;border-radius:24px;padding:10px 18px;font-size:15px;cursor:pointer}
+#likeBtn:hover{background:#fff0f2}
+#likeBtn:disabled{cursor:default;opacity:.7}
+.like-count{font-weight:700;font-size:17px}
+.like-thanks{margin:12px 0 0;color:#8f877f;font-size:13px}
+.next-episode{margin-top:14px;padding:22px;border:1px solid #eadfce;border-radius:18px;background:#fff;display:flex;justify-content:space-between;gap:18px;align-items:center}
+.next-episode .next-title{font-weight:700;font-size:17px}
+.next-episode .next-sub{margin-top:8px;color:#9a948c;font-size:13px}
+.next-episode .next-link{white-space:nowrap}
+.related-box{margin-top:26px;padding:20px 22px;border-radius:18px;background:#f7f3eb}
+.related-box h3{margin:0 0 12px;font-size:16px}
+.related-box p{margin:8px 0}
+
 </style>
 </head>
 <body>
@@ -168,10 +185,24 @@ footer{text-align:center;padding:28px;border-top:1px solid #e9e5dc;color:#888;fo
 <p>特に、<strong>「ベキの孤児院」と「ジャミーン」の謎が、シンシーの目的とつながるのか</strong>が非常に気になります。</p>
 <p>そして野崎はシンシーの内部から、乃木は外側から、それぞれ同じ真相に近づいている――という構図になってきたように思います。</p></section><section class="content" id="s11"><h2>第15話の視聴データと今後</h2>
 <p>「1話1億円」の制作費とも言われる『VIVANT』。第1シーズンの全話平均世帯視聴率は14.3％。第2シーズンは、第11話（7月26日）18.8％、第12話（8月2日）16.4％、第13話（8月9日）15.1％、第14話（8月16日）16.6％、第15話（8月23日）15.2％。</p>
-<p>また、VIVANTは映画化・劇場版で完結し、第2シーズンは全14話、第1シーズンから換算すると第24話で最終回を迎えるという情報も出ている。途中に約3週間の放送休止を挟み、最終回は11月中旬、その後に特番を挟んで12月4日に劇場版公開の方向で調整されているとされる。</p></section><div class="like-box"><button id="likeBtn">この記事にいいね♡</button><span id="likeCount">0</span></div>
-<div class="next-box"><strong>次回：</strong> 第6話（第16話）は次の記事として追加予定です。 <span>準備中</span></div>
-<div class="back"><a href="vivant-s2-ep4.html">← 第4話（第14話）はこちら</a>　｜　<a href="vivant-series2.html">第2シリーズ一覧へ</a></div>
-</article>
+<p>また、VIVANTは映画化・劇場版で完結し、第2シーズンは全14話、第1シーズンから換算すると第24話で最終回を迎えるという情報も出ている。途中に約3週間の放送休止を挟み、最終回は11月中旬、その後に特番を挟んで12月4日に劇場版公開の方向で調整されているとされる。</p></section>
+
+<section class="like-section">
+  <div class="like-row">
+    <button id="likeBtn">♡ この記事にいいね</button>
+    <span class="like-count"><span id="likeCount">0</span>件</span>
+  </div>
+  <p class="like-thanks">ありがとうございます。</p>
+</section>
+
+<section class="next-episode">
+  <div>
+    <div class="next-title">次回：第6話（第16話）</div>
+    <div class="next-sub">次の記事として追加予定です。</div>
+  </div>
+  <span class="next-link">準備中</span>
+</section>
+<section class="related-box"><h3>関連記事</h3><p><a href="vivant-s2-ep4.html">← 第4話（第14話）を見る</a></p><p><a href="vivant-series2.html">← VIVANT シリーズ2の各話一覧へ戻る</a></p></section></article>
 </main>
 <script>
 const SUPABASE_URL="https://bbyauxdtoorummtgnkzj.supabase.co";

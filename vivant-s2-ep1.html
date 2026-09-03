@@ -32,6 +32,23 @@ section.content h3{font-size:18px;margin-top:24px}.quote{background:#f8f6f0;bord
 .related{margin-top:26px;background:#f5f2eb;border-radius:16px;padding:18px 22px}
 footer{text-align:center;padding:28px;border-top:1px solid #e9e5dc;color:#888;font-size:12px;background:#fff}
 @media(max-width:650px){.nav{flex-direction:column}main{padding:28px 14px 55px}.article-head,section.content{padding:24px 20px}h1{font-size:27px}.people-table{font-size:13px}}
+
+/* VIVANT各話・記事下部共通 */
+.like-section{margin-top:26px;padding:22px;border:1px solid #eadfce;border-radius:18px;background:#fff}
+.like-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+#likeBtn{border:1px solid #efb9c1;background:#fff7f8;color:#c36e7b;border-radius:24px;padding:10px 18px;font-size:15px;cursor:pointer}
+#likeBtn:hover{background:#fff0f2}
+#likeBtn:disabled{cursor:default;opacity:.7}
+.like-count{font-weight:700;font-size:17px}
+.like-thanks{margin:12px 0 0;color:#8f877f;font-size:13px}
+.next-episode{margin-top:14px;padding:22px;border:1px solid #eadfce;border-radius:18px;background:#fff;display:flex;justify-content:space-between;gap:18px;align-items:center}
+.next-episode .next-title{font-weight:700;font-size:17px}
+.next-episode .next-sub{margin-top:8px;color:#9a948c;font-size:13px}
+.next-episode .next-link{white-space:nowrap}
+.related-box{margin-top:26px;padding:20px 22px;border-radius:18px;background:#f7f3eb}
+.related-box h3{margin:0 0 12px;font-size:16px}
+.related-box p{margin:8px 0}
+
 </style>
 </head>
 <body>
@@ -137,14 +154,30 @@ footer{text-align:center;padding:28px;border-top:1px solid #e9e5dc;color:#888;fo
 </section>
 <a class="next-episode" href="vivant-s2-ep2.html"><div><strong>第2話はこちら →</strong><br><span>第12話のあらすじ・伏線・考察へ</span></div><div>次の話へ</div></a>
 <div class="related"><strong>関連記事</strong><br><a href="vivant-series2.html">← VIVANT シリーズ2の各話一覧へ戻る</a></div>
-</article>
+
+<section class="like-section">
+  <div class="like-row">
+    <button id="likeBtn">♡ この記事にいいね</button>
+    <span class="like-count"><span id="likeCount">0</span>件</span>
+  </div>
+  <p class="like-thanks">ありがとうございます。</p>
+</section>
+
+<section class="next-episode">
+  <div>
+    <div class="next-title">第2話はこちら →</div>
+    <div class="next-sub">第12話</div>
+  </div>
+  <a class="next-link" href="vivant-s2-ep2.html">読む →</a>
+</section>
+<section class="related-box"><h3>関連記事</h3><p><a href="vivant-series2.html">← VIVANT シリーズ2の各話一覧へ戻る</a></p></section></article>
 </main>
 <footer>© Mama's LIFE NOTE</footer>
 
 <script>
 const SUPABASE_URL="https://bbyauxdtoorummtgnkzj.supabase.co";
 const SUPABASE_KEY="sb_publishable_8_Zj5218vMCffmxKOenXCA_K6VtrlPQ";
-const ARTICLE_ID="vivant-series2-episode1";
+const ARTICLE_ID="vivant-s2-ep1";
 const STORAGE_KEY="mamas-life-note-liked:"+ARTICLE_ID;
 async function loadLikes(){const u=`${SUPABASE_URL}/rest/v1/article_likes?article_id=eq.${encodeURIComponent(ARTICLE_ID)}&select=likes`;const r=await fetch(u,{headers:{"apikey":SUPABASE_KEY}});if(!r.ok)throw new Error();const d=await r.json();document.getElementById("likeCount").textContent=d.length?d[0].likes:0;}
 async function addLike(){if(localStorage.getItem(STORAGE_KEY))return;const b=document.getElementById("likeButton");b.disabled=true;const r=await fetch(`${SUPABASE_URL}/rest/v1/rpc/add_like`,{method:"POST",headers:{"apikey":SUPABASE_KEY,"Content-Type":"application/json"},body:JSON.stringify({p_article_id:ARTICLE_ID})});if(!r.ok){b.disabled=false;document.getElementById("likeMessage").textContent="いいねを送信できませんでした。";return;}const n=await r.json();localStorage.setItem(STORAGE_KEY,"1");document.getElementById("likeCount").textContent=n;b.textContent="♥ いいね済み";b.classList.add("liked");document.getElementById("likeMessage").textContent="ありがとうございます。";}
