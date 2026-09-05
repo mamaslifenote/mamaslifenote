@@ -1,69 +1,70 @@
 <!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>花壇全体｜Mama's LIFE NOTE</title>
 <style>
-
-*{box-sizing:border-box} body{margin:0;background:#faf9f5;color:#344334;font-family:Meiryo,"Yu Gothic",sans-serif;line-height:1.7}
+*{box-sizing:border-box} body{margin:0;background:#faf9f5;color:#344334;font-family:Meiryo,"Yu Gothic",sans-serif;line-height:1.8}
 header{background:#fff;border-bottom:1px solid #e5e1d8}.nav{max-width:1180px;margin:auto;padding:17px 22px;display:flex;justify-content:space-between;align-items:center}
 .brand{font:700 28px Georgia,serif;text-decoration:none;color:#344b35}nav a{margin-left:22px;text-decoration:none;color:#3f503e;font-size:14px}
-.hero{max-width:1180px;margin:24px auto 0}.hero img{display:block;width:100%;border-radius:18px}
-.wrap{max-width:1180px;margin:auto;padding:0 22px 60px}.title{text-align:center;margin:38px 0 22px}.title h2{font:700 31px Georgia,serif;margin:0;color:#344b35}.title p{font-size:13px;color:#888;margin:4px}
-.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}.card{background:#fff;border:1px solid #dedbd2;border-radius:16px;padding:25px 12px;text-align:center;text-decoration:none;color:#333}.card:hover{box-shadow:0 8px 20px #ddd;transform:translateY(-3px)}.ico{font-size:43px}.card h3{margin:7px 0;color:#3e513d}.card p{font-size:12px;color:#777;margin:0}
-.latest{display:flex;justify-content:space-between;align-items:end;margin-top:45px;border-bottom:1px solid #dcd8ce}.latest h2{font:700 27px Georgia,serif;margin:0 0 8px}.latest span{font-size:12px;color:#888;margin-bottom:10px}
-.articles{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:18px}.article{background:#fff;border:1px solid #dedbd2;border-radius:14px;overflow:hidden}.thumb{height:125px;background:#eef1e9;display:flex;align-items:center;justify-content:center;font-size:52px}.body{padding:14px}.body h3{font-size:15px;margin:4px 0}.body p{font-size:12px;color:#777;margin:0}
-.pagehero{max-width:1180px;margin:24px auto 0;padding:48px 20px;text-align:center;background:#eef1e9;border-radius:18px}.pagehero h1{margin:0;color:#3e513d;font-size:38px}
-.subgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.sub{background:#fff;border:1px solid #dedbd2;border-radius:14px;padding:20px;text-decoration:none;color:#333}.sub h3{margin:0;color:#3e513d}.sub p{font-size:13px;color:#777}
-.info{background:#fff;border:1px solid #dedbd2;border-radius:15px;padding:24px;margin-top:22px}.info h3{margin-top:0;color:#3e513d}
+.wrap{max-width:1050px;margin:auto;padding:0 22px 60px}.pagehero{max-width:1180px;margin:24px auto 0;padding:48px 20px;text-align:center;background:#eef1e9;border-radius:18px}
+.pagehero h1{margin:0;color:#3e513d;font-size:38px}.pagehero p{margin:8px 0 0;color:#677266}
+.title{text-align:center;margin:38px 0 20px}.title h2{font:700 30px Georgia,serif;color:#344b35;margin:0}.title p{font-size:13px;color:#888}
+.info{background:#fff;border:1px solid #dedbd2;border-radius:15px;padding:25px;margin-top:22px}.info h2,.info h3{color:#3e513d;margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.card{background:#fff;border:1px solid #dedbd2;border-radius:15px;padding:22px;text-decoration:none;color:#333}
+.card:hover{box-shadow:0 8px 20px #ddd;transform:translateY(-3px)}.card h3{margin:0;color:#3e513d}.card p{font-size:13px;color:#777;margin:5px 0}
+.timeline{border-left:3px solid #dbe4d6;margin:12px 0 0 10px;padding-left:22px}.event{margin:0 0 22px}.date{display:inline-block;background:#edf2e9;color:#5d6c59;border-radius:20px;padding:2px 10px;font-size:11px}
+.event h3{margin:6px 0 2px;font-size:16px}.event p{margin:0;color:#666;font-size:14px}
+.note{font-size:12px;color:#777;background:#f6f3ec;padding:12px 14px;border-radius:10px}
+.back{display:inline-block;margin-top:25px;text-decoration:none;color:#496048}
 footer{text-align:center;padding:28px;border-top:1px solid #dedbd2;background:#f1f3ed;color:#888;font-size:12px}
-@media(max-width:800px){.grid,.articles{grid-template-columns:repeat(2,1fr)}.nav{padding:13px}.brand{font-size:20px}nav a{margin-left:8px;font-size:11px}.hero{margin:15px 10px 0}.wrap{padding:0 13px 45px}}
-@media(max-width:480px){.subgrid{grid-template-columns:1fr}.hero img{border-radius:10px}}
+@media(max-width:760px){.grid{grid-template-columns:1fr}.nav{padding:13px}.brand{font-size:20px}nav a{margin-left:8px;font-size:11px}.wrap{padding:0 13px 45px}.pagehero{margin:15px 10px 0}}
+.topphoto{max-width:1050px;margin:22px auto 0;padding:0 22px}
+.topphoto img{width:100%;display:block;border-radius:18px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+@media(max-width:760px){.topphoto{padding:0 13px;margin-top:14px}}
+.photo-link-wrap{position:relative}
+.photo-all-link{display:block}
+.photo-all-link img{display:block}
+.record-hotspot{
+ position:absolute;
+ left:5.2%;
+ bottom:7.5%;
+ width:36%;
+ height:12%;
+ border-radius:10px;
+ z-index:3;
+}
+.record-hotspot:focus{outline:3px solid rgba(255,255,255,.95);outline-offset:2px}
+html{scroll-behavior:smooth}
 
-.visual-card{padding:0!important;overflow:hidden;background:#fff;display:block}
-.visual-card img{width:100%;height:100%;aspect-ratio:1/1;object-fit:cover;display:block;border-radius:14px}
-.visual-card:hover img{transform:scale(1.015);transition:.2s ease}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 8px}
+.tag{
+ display:inline-block;padding:5px 11px;border-radius:999px;
+ background:#e8f1e4;border:1px solid #d5e4cf;color:#4c6448;
+ font-size:12px;text-decoration:none;line-height:1.4;
+}
+.tag:hover{background:#dfead9}
+.tag-list{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:18px 0 28px}
+.tag-title{text-align:center;margin-top:28px;color:#3e513d}
+.tag-results{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.tag-result{background:#fff;border:1px solid #dedbd2;border-radius:14px;padding:18px;text-decoration:none;color:#333}
+.tag-result h3{margin:0 0 5px;color:#3e513d}
+.tag-result p{margin:0;color:#777;font-size:13px}
+@media(max-width:760px){.tag-results{grid-template-columns:1fr}}
 
-.visual-card.visual-card-with-label{display:flex;flex-direction:column;height:auto!important}
-.visual-card.visual-card-with-label img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:14px 14px 0 0}
-.visual-card-label{padding:13px 8px 15px;text-align:center;font-size:18px;font-weight:700;color:#344b35;background:#fff}
-
-.eupatorium-final-card{padding:0!important;overflow:hidden;background:#fff;display:flex!important;flex-direction:column}
-.eupatorium-final-card img{width:100%;display:block;object-fit:cover}
-.eupatorium-final-label{padding:13px 8px 5px;text-align:center;font-size:18px;font-weight:700;color:#344b35}
-.eupatorium-final-sub{padding:0 8px 15px;text-align:center;font-size:13px;color:#5f675c}
-
-.kadan-zentai-card{padding:0!important;overflow:hidden;background:#fff;display:block}
-.kadan-zentai-card img{width:100%;height:auto;display:block;border-radius:14px}
-
-.kadan-head{max-width:900px;margin:32px auto 0;text-align:center}
-.kadan-head h1{font-size:34px;color:#344b35;margin:0}
-.kadan-head p{color:#777;font-size:14px;margin:8px 0 0}
-.timeline{max-width:900px;margin:34px auto 0}
-.event{display:grid;grid-template-columns:135px 1fr;gap:18px;padding:20px 0;border-bottom:1px solid #dedbd2}
-.event-date{font-weight:700;color:#556452}
-.event-body h2{font-size:20px;margin:0 0 6px;color:#344b35}
-.event-body p{margin:0 0 10px;color:#666;font-size:14px}
-.event-body a{color:#3e513d;font-weight:700;text-decoration:none}
-.back{display:inline-block;margin:28px 0 0;color:#3e513d;text-decoration:none}
-@media(max-width:600px){.event{grid-template-columns:1fr;gap:4px}}
+.record-detail-link{display:inline-block;margin-top:8px;color:#557253;text-decoration:none;font-size:13px;font-weight:700}.year-summary-link{font-size:15px}
+.record-detail-link:hover{text-decoration:underline}
 </style></head><body>
-<header><div class="nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav><a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物・蝶</a><a href="#">🎬 映画</a><a href="drama.html">📺 ドラマ</a><a href="#">📚 本・小説</a></nav></div></header>
-
+<header><div class="nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav><a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物・蝶</a></nav></div></header>
 <main class="wrap">
-<section class="kadan-head">
-<h1>花壇全体</h1>
-<p>花壇づくりの変化を、日付ごとに記録します。</p>
-</section>
-
-<section class="timeline">
+<div class="info" id="growth-record">
+<h2>わが家の生育記録</h2>
+<div class="timeline">
 <div class="event">
-<div class="event-date">2025/07/19</div>
-<div class="event-body">
-<h2>ユーパトリウム・ピンクフロスト（斑入り）を植え付け</h2>
+<span class="date">2025/07/19</span>
+<h3>ユーパトリウム・ピンクフロスト（斑入り）を植え付け</h3>
 <p>花壇づくりの最初の記録。まずは、ユーパトリウム・ピンクフロスト（斑入り）を一番最初に植えました。</p>
-<a href="kadan-20250719.html">詳細を見る →</a>
+<a class="record-detail-link" href="kadan-20250719.html">この記録を見る →</a>
 </div>
 </div>
-</section>
-
+</div>
 <a class="back" href="garden.html">← 庭・植物・蝶に戻る</a>
 </main>
 <footer>日々の小さな「好き」を記録して。　© Mama's LIFE NOTE</footer>
