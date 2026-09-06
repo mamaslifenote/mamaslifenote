@@ -1,28 +1,82 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ユーパトリウム｜Mama's LIFE NOTE</title><style>
-*{box-sizing:border-box} body{margin:0;background:#faf9f5;color:#344334;font-family:Meiryo,"Yu Gothic",sans-serif;line-height:1.8}
-header{background:#fff;border-bottom:1px solid #e5e1d8}.nav{max-width:1180px;margin:auto;padding:17px 22px;display:flex;justify-content:space-between;align-items:center}
-.brand{font:700 28px Georgia,serif;text-decoration:none;color:#344b35}nav a{margin-left:22px;text-decoration:none;color:#3f503e;font-size:14px}
-.wrap{max-width:1050px;margin:auto;padding:0 22px 60px}.pagehero{max-width:1180px;margin:24px auto 0;padding:48px 20px;text-align:center;background:#eef1e9;border-radius:18px}
-.pagehero h1{margin:0;color:#3e513d;font-size:38px}.pagehero p{margin:8px 0 0;color:#677266}
-.title{text-align:center;margin:38px 0 20px}.title h2{font:700 30px Georgia,serif;color:#344b35;margin:0}.title p{font-size:13px;color:#888}
-.info{background:#fff;border:1px solid #dedbd2;border-radius:15px;padding:25px;margin-top:22px}.info h2,.info h3{color:#3e513d;margin-top:0}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.card{background:#fff;border:1px solid #dedbd2;border-radius:15px;padding:22px;text-decoration:none;color:#333}
-.card:hover{box-shadow:0 8px 20px #ddd;transform:translateY(-3px)}.card h3{margin:0;color:#3e513d}.card p{font-size:13px;color:#777;margin:5px 0}
-.timeline{border-left:3px solid #dbe4d6;margin:12px 0 0 10px;padding-left:22px}.event{margin:0 0 22px}.date{display:inline-block;background:#edf2e9;color:#5d6c59;border-radius:20px;padding:2px 10px;font-size:11px}
-.event h3{margin:6px 0 2px;font-size:16px}.event p{margin:0;color:#666;font-size:14px}
-.note{font-size:12px;color:#777;background:#f6f3ec;padding:12px 14px;border-radius:10px}
-.back{display:inline-block;margin-top:25px;text-decoration:none;color:#496048}
-footer{text-align:center;padding:28px;border-top:1px solid #dedbd2;background:#f1f3ed;color:#888;font-size:12px}
-@media(max-width:760px){.grid{grid-template-columns:1fr}.nav{padding:13px}.brand{font-size:20px}nav a{margin-left:8px;font-size:11px}.wrap{padding:0 13px 45px}.pagehero{margin:15px 10px 0}}
-</style></head><body>
-<header><div class="nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav><a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物</a><a href="eupatorium.html">ユーパトリウム</a></nav></div></header>
-<section class="pagehero"><h1>🌿 ユーパトリウム</h1><p>フジバカマの仲間として園芸で親しまれる植物たち。特徴と、わが家での生育記録を残します。</p></section>
-<main class="wrap"><div class="info"><h2>ユーパトリウムとは？</h2>
-<p>園芸では「ユーパトリウム」の名で、フジバカマに近い仲間や、かつてEupatorium属に含められていた植物が広く流通しています。分類上の属名が変更されたものもあるため、このブログでは購入時・園芸流通上の呼び名を基本に、育てている株をまとめています。</p>
-<p class="note">※ 「ユーパトリウム」は園芸上かなり広く使われる名称です。個別ページでは、分かる範囲で学名や現在の分類も補足します。</p></div>
-<div class="title"><h2>育てているユーパトリウム</h2><p>クリックすると個別ページが開きます</p></div><div class="grid">
-<a class="card" href="eupatorium-babyjoe.html"><h3>🌿 ベイビージョー（花房大きい）</h3><p>大きな花房と、挿し木株の成長記録</p></a>
-<a class="card" href="eupatorium-pinkfrost.html"><h3>🌿 ピンクフロスト（斑入り）</h3><p>斑入り葉と開花の記録</p></a>
-<a class="card" href="eupatorium-aobana.html"><h3>💜 青花丸葉フジバカマ（あおばなまるば）</h3><p>丸みのある葉と青紫花の記録</p></a>
-</div></main><footer>日々の小さな「好き」を記録して。　© Mama's LIFE NOTE</footer></body></html>
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ユーパトリウム｜Mama's LIFE NOTE</title>
+<meta name="description" content="ベイビージョー、ピンクフロスト、青花丸葉フジバカマの生育・開花記録。">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fbfaf6;color:#344238;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;line-height:1.85}
+a{color:inherit}
+header{background:#fff;border-bottom:1px solid #e7e2d8}
+.nav{max-width:1180px;margin:auto;padding:17px 24px;display:flex;justify-content:space-between;align-items:center;gap:22px}
+.brand{font-family:Georgia,"Yu Mincho",serif;font-size:23px;font-weight:700;text-decoration:none;color:#36513b}
+nav{display:flex;gap:20px;flex-wrap:wrap;font-size:14px}
+nav a{text-decoration:none;color:#405445}
+main{max-width:1180px;margin:auto;padding:38px 24px 70px}
+.breadcrumb{font-size:13px;color:#7b817b;margin-bottom:22px}
+.breadcrumb a{text-underline-offset:3px}
+.hero{background:#fff;border:1px solid #e2ddd3;border-radius:22px;overflow:hidden;margin-bottom:28px}
+.hero img{display:block;width:100%;height:auto;max-height:620px;object-fit:cover}
+.hero-body{padding:28px 34px 32px}
+.hero h1{font-family:Georgia,"Yu Mincho",serif;font-size:38px;line-height:1.4;margin:0 0 8px;color:#35513b}
+.hero p{margin:0;color:#626b63}
+.cta{display:inline-block;margin-top:20px;background:#ad6275;color:#fff;text-decoration:none;padding:13px 28px;border-radius:9px;font-weight:700}
+.panel{background:#fff;border:1px solid #e2ddd3;border-radius:18px;padding:30px 34px;margin:24px 0}
+.panel h2{margin:0 0 18px;font-size:26px;color:#36513b}
+.timeline{border-left:4px solid #dce7d8;padding-left:26px}
+.entry{margin:0 0 28px}
+.date{display:inline-block;background:#eef3ea;border-radius:999px;padding:3px 13px;font-size:13px;color:#657263;margin-bottom:8px}
+.entry h3{margin:0 0 5px;font-size:20px;color:#405a42}
+.entry p{margin:0;color:#666}
+.back{display:inline-block;margin-top:8px;color:#4e7451;font-weight:700}
+footer{text-align:center;padding:30px 18px;border-top:1px solid #e6e1d8;color:#8a8a84;font-size:12px}
+@media(max-width:700px){
+ .nav{flex-direction:column;align-items:flex-start}.nav nav{gap:11px}
+ main{padding:24px 14px 50px}.hero-body,.panel{padding:23px 20px}
+ .hero h1{font-size:29px}
+}
+
+.intro{text-align:center;margin:5px 0 28px}
+.intro h1{font-family:Georgia,"Yu Mincho",serif;font-size:38px;margin:0;color:#35513b}
+.intro p{margin:5px 0;color:#70786f}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.plant-card{display:flex;flex-direction:column;background:#fff;border:1px solid #ddd9cf;border-radius:20px;overflow:hidden;text-decoration:none;box-shadow:0 5px 18px rgba(55,70,55,.06);transition:.18s}
+.plant-card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(55,70,55,.11)}
+.plant-card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.card-body{padding:20px 21px 23px;display:flex;flex-direction:column;flex:1}
+.card-body h2{font-size:23px;margin:0 0 3px;color:#35513b}
+.card-sub{font-size:14px;color:#777;margin-bottom:12px}
+.card-body p{font-size:14px;color:#646b64;margin:0}
+.go{margin-top:auto;padding-top:18px;font-weight:700;color:#527356}
+.info{background:#eef4e9;border-radius:20px;padding:26px 30px;margin-top:32px}
+.info h2{margin:0 0 8px;color:#35513b}
+@media(max-width:820px){.cards{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header><div class="nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav>
+<a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物・蝶</a><a href="#">🎬 映画</a><a href="drama.html">📺 ドラマ</a><a href="#">📚 本・小説</a>
+</nav></div></header>
+<main>
+<div class="breadcrumb"><a href="index.html">ホーム</a> ＞ <a href="garden.html">庭・植物・蝶</a> ＞ ユーパトリウム</div>
+<section class="intro"><h1>ユーパトリウム</h1><p>わが家で育てている3種類の生育・開花記録</p></section>
+
+<section class="cards">
+<a class="plant-card" href="eupatorium-babyjoe.html" aria-label="ベイビージョーの生育記録を見る">
+<img src="eupatorium-babyjoe-card.jpg" alt="ベイビージョー">
+<div class="card-body"><h2>ベイビージョー</h2><div class="card-sub">大きくふんわりとした花房</div>
+<p>ボリュームのある花房が魅力。挿し木株を含め、わが家での成長と開花を記録しています。</p><div class="go">生育記録を見る →</div></div></a>
+
+<a class="plant-card" href="eupatorium-pinkfrost.html" aria-label="ピンクフロストの生育記録を見る">
+<img src="eupatorium-pinkfrost-card.jpg" alt="ピンクフロストの斑入り葉と花">
+<div class="card-body"><h2>ピンクフロスト（斑入り）</h2><div class="card-sub">斑入り葉と開花の記録</div>
+<p>クリーム色の斑が入る葉と、淡いピンクの花のコントラストが魅力です。</p><div class="go">生育記録を見る →</div></div></a>
+
+<a class="plant-card" href="eupatorium-aobana.html" aria-label="青花丸葉フジバカマの生育記録を見る">
+<img src="eupatorium-aobana-card.jpg" alt="青花丸葉フジバカマ">
+<div class="card-body"><h2>青花丸葉フジバカマ</h2><div class="card-sub">丸みのある葉と青紫花の記録</div>
+<p>青紫色の花と、葉脈が目立つ緑の葉が特徴。育ち方と開花の様子を記録します。</p><div class="go">生育記録を見る →</div></div></a>
+</section>
+
+<section class="info"><h2>概要</h2><p>フジバカマやユーパトリウムは、アサギマダラが好む花として知られています。このページでは、それぞれの品種の生育記録や庭での様子をまとめています。</p></section>
+</main><footer>日々の小さな「好き」を記録して。　© Mama's LIFE NOTE</footer>
+</body></html>
