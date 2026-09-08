@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>本・小説｜Mama's LIFE NOTE</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN",
+                   "Yu Gothic", "Meiryo", sans-serif;
+      color: #343434;
+      background: #f5f3ee;
+      line-height: 1.75;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    .site-header {
+      background: #ffffff;
+      border-bottom: 1px solid #d9d7cf;
+    }
+
+    .header-inner {
+      width: min(1080px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 22px 0 12px;
+    }
+
+    .site-title {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: .02em;
+      margin-bottom: 14px;
+    }
+
+    .global-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .global-nav a {
+      padding: 3px 0;
+    }
+
+    .global-nav a:hover {
+      opacity: .7;
+    }
+
+    .hero {
+      width: min(1080px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 34px 0 14px;
+    }
+
+    .location {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 22px;
+    }
+
+    .english-label {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(54px, 9vw, 104px);
+      font-weight: 700;
+      letter-spacing: .06em;
+      line-height: 1;
+      color: rgba(90, 90, 90, .08);
+      margin: 0 0 -14px;
+      user-select: none;
+    }
+
+    .page-title {
+      margin: 0;
+      font-size: clamp(30px, 4vw, 42px);
+      font-weight: 800;
+      color: #355f55;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 12px 0 0;
+      font-size: 16px;
+      color: #545454;
+    }
+
+    .content {
+      width: min(1080px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 18px 0 54px;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      min-height: 225px;
+      padding: 27px 28px 24px;
+      background: #fff;
+      border: 1px solid #e0ddd4;
+      border-radius: 12px;
+      box-shadow: 0 7px 22px rgba(0,0,0,.035);
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 26px rgba(0,0,0,.055);
+    }
+
+    .card-title {
+      margin: 0 0 12px;
+      font-size: 22px;
+      font-weight: 800;
+      color: #3d645a;
+    }
+
+    .card-text {
+      margin: 0;
+      color: #555;
+      font-size: 15px;
+    }
+
+    .card-link {
+      margin-top: auto;
+      padding-top: 22px;
+      font-weight: 700;
+      color: #536f66;
+    }
+
+    .note {
+      margin-top: 26px;
+      padding: 18px 20px;
+      background: rgba(255,255,255,.62);
+      border-left: 4px solid #899d78;
+      border-radius: 7px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer {
+      border-top: 1px solid #d9d7cf;
+      padding: 24px 18px 32px;
+      text-align: center;
+      font-size: 13px;
+      color: #777;
+      background: #f1efe9;
+    }
+
+    @media (max-width: 760px) {
+      .header-inner,
+      .hero,
+      .content {
+        width: min(100% - 28px, 1080px);
+      }
+
+      .site-title { font-size: 25px; }
+
+      .global-nav {
+        gap: 7px 13px;
+        font-size: 14px;
+      }
+
+      .hero { padding-top: 26px; }
+
+      .card-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .card {
+        min-height: 0;
+        padding: 23px 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-title" href="index.html">Mama's LIFE NOTE</a>
+    <nav class="global-nav" aria-label="メインメニュー">
+      <a href="index.html">🏠 ホーム</a>
+      <a href="garden.html">🌿 庭・植物・蝶</a>
+      <a href="movie.html">🎬 映画</a>
+      <a href="drama.html">📺 ドラマ</a>
+      <a href="book.html">📚 本・小説</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="location">ホーム ＞ 本・小説</div>
+    <div class="english-label">BOOKS</div>
+    <h1 class="page-title">📚 本・小説</h1>
+    <p class="lead">
+      読んだ本や小説を、作品ごとにまとめています。
+      シリーズ作品から一冊で完結する作品まで、読書の記録を残していきます。
+    </p>
+  </section>
+
+  <section class="content">
+    <div class="card-grid">
+
+      <a class="card" href="book-series.html">
+        <h2 class="card-title">📚 シリーズ 本・小説</h2>
+        <p class="card-text">
+          複数巻にわたって続く小説やシリーズ作品を、作品ごとにまとめます。
+        </p>
+        <div class="card-link">作品を見る →</div>
+      </a>
+
+      <a class="card" href="book-single.html">
+        <h2 class="card-title">📖 単独 本・小説</h2>
+        <p class="card-text">
+          一冊で完結する小説や、シリーズに属さない作品をまとめます。
+        </p>
+        <div class="card-link">作品を見る →</div>
+      </a>
+
+      <a class="card" href="book-favorites.html">
+        <h2 class="card-title">⭐ お気に入り・おすすめ</h2>
+        <p class="card-text">
+          シリーズ・単独を問わず、特に気に入った本やおすすめしたい作品をまとめます。
+        </p>
+        <div class="card-link">お気に入りを見る →</div>
+      </a>
+
+      <a class="card" href="book-log.html">
+        <h2 class="card-title">📝 読書記録</h2>
+        <p class="card-text">
+          これまでに読んだ本・小説を、読書・掲載した記録から探せます。
+        </p>
+        <div class="card-link">記録を見る →</div>
+      </a>
+
+    </div>
+
+    <div class="note">
+      「お気に入り・おすすめ」は作品ページを重複して作らず、
+      「シリーズ 本・小説」「単独 本・小説」にある同じ作品ページへつながる仕組みにしていきます。
+    </div>
+  </section>
+</main>
+
+<footer>© Mama's LIFE NOTE</footer>
+
+</body>
+</html>
