@@ -13,7 +13,7 @@ nav{display:flex;gap:18px;flex-wrap:wrap;font-size:14px}nav a:hover{opacity:.65}
 main{max-width:1100px;margin:auto;padding:44px 22px 70px}
 .breadcrumb{font-size:13px;color:#777;margin-bottom:24px}.breadcrumb a{text-decoration:underline;text-underline-offset:3px}
 .hero{padding:38px 34px;background:#fff;border:1px solid #ebe6dc;border-radius:22px;margin-bottom:34px}.hero .eyebrow{font-size:13px;letter-spacing:.12em;color:#777}.hero h1{font-family:Georgia,"Yu Mincho",serif;font-size:34px;margin:8px 0 8px}.hero p{margin:0;color:#686868}
-.list{display:grid;grid-template-columns:1fr;gap:18px}.book-card{background:#fff;border:1px solid #e9e5dc;border-radius:18px;padding:18px 20px;display:flex;align-items:center;gap:22px;min-height:190px}
+.sort-controls{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 22px}.sort-controls button{border:1px solid #d9d4c9;background:#fff;padding:9px 14px;border-radius:999px;font-size:14px;cursor:pointer}.sort-controls button.active{font-weight:700;background:#f0eee8}.list{display:grid;grid-template-columns:1fr;gap:18px}.book-card{background:#fff;border:1px solid #e9e5dc;border-radius:18px;padding:18px 20px;display:flex;align-items:center;gap:22px;min-height:190px}
 .cover{width:108px;height:152px;flex:0 0 108px;object-fit:cover;border-radius:7px;box-shadow:0 2px 8px rgba(0,0,0,.10)}
 .info{min-width:0;flex:1}.info small{font-size:13px;font-weight:600;margin-left:6px}.no-cover{min-height:auto}.no-cover .info{padding:4px 0}.info h2{font-size:21px;margin:0 0 9px;line-height:1.5}.info h2 a{text-decoration:underline;text-underline-offset:4px}.info h2 a:hover{opacity:.65}.info p{margin:2px 0;color:#606562;font-size:14px}.label{color:#777}.summary{margin-top:8px!important;color:#4f5451!important}
 footer{text-align:center;padding:28px 20px;border-top:1px solid #e9e5dc;color:#888;font-size:12px;background:#fff}
@@ -25,31 +25,55 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid #e9e5dc;color:#8
 <main>
 <div class="breadcrumb"><a href="index.html">ホーム</a> ＞ <a href="books.html">本・小説</a> ＞ シリーズ 本・小説</div>
 <section class="hero"><div class="eyebrow">SERIES BOOKS &amp; NOVELS</div><h1>📚 シリーズ 本・小説</h1><p>複数巻にわたって続く小説やシリーズ作品を、作品ごとにまとめます。</p></section>
-<section class="list" aria-label="シリーズ 本・小説一覧">
-<article class="book-card">
+<div class="sort-controls" aria-label="発売日順の並び替え"><button type="button" id="sort-desc" class="active" aria-pressed="true">新しいのが上</button><button type="button" id="sort-asc" aria-pressed="false">新しいのが下</button></div>
+<section class="list" id="series-list" aria-label="シリーズ 本・小説一覧">
+<article class="book-card" data-date="2024-04-25">
 <img class="cover" src="karasugoromo-no-hana.png" alt="烏衣の華 表紙">
 <div class="info"><h2><a href="karasugoromo-no-hana-series.html">烏衣の華シリーズ</a></h2><p><span class="label">著者：</span>白川 紺子（しらかわ こうこ）</p><p><span class="label">第1巻発売日：</span>2024年04月25日</p><p class="summary"><span class="label">概要：</span>死者の声を聞く力を持つ少女・董月季が、宮廷で起こる怪異や謎に向き合う中華風幻想ミステリー。</p></div>
 </article>
-<article class="book-card">
+<article class="book-card" data-date="2023-07-14">
 <img class="cover" src="wadatsumi-no-musume.png" alt="海神の娘 表紙">
 <div class="info"><h2>海神の娘シリーズ <small>「完結」</small></h2><p><span class="label">著者：</span>白川 紺子（しらかわ こうこ）</p><p><span class="label">第1巻発売日：</span>2023年07月14日</p><p class="summary"><span class="label">概要：</span>海神を信仰する島々を舞台に、神と人、人と人との縁や運命を描く幻想的な物語。</p></div>
 </article>
-<article class="book-card">
+<article class="book-card" data-date="2023-06-14">
 <img class="cover" src="leende.png" alt="レーエンデ国物語 表紙">
 <div class="info"><h2>レーエンデ国物語</h2><p><span class="label">著者：</span>多崎 礼（たさき れい）</p><p><span class="label">第1巻発売日：</span>2023年06月14日</p><p class="summary"><span class="label">概要：</span>呪われた土地レーエンデを舞台に、人々の出会いと選択が国の歴史を動かしていく壮大なファンタジー。</p></div>
 </article>
-<article class="book-card">
+<article class="book-card" data-date="2019-06-21">
 <img class="cover" src="kijin-gentosho.png" alt="鬼人幻燈抄 表紙">
 <div class="info"><h2>鬼人幻燈抄（きじんげんとうしょう）シリーズ <small>「完結」</small></h2><p><span class="label">著者：</span>中西モトオ</p><p><span class="label">第1巻発売日：</span>2019年06月21日</p><p class="summary"><span class="label">概要：</span>江戸から平成へ、鬼となった青年が長い歳月を生きながら鬼と人の因縁に向き合う和風大河ファンタジー。</p></div>
 </article>
-<article class="book-card">
+<article class="book-card" data-date="2018-04-20">
 <img class="cover" src="kokyu-no-karasu.png" alt="後宮の烏 表紙">
 <div class="info"><h2>後宮の烏 <small>「完結」</small></h2><p><span class="label">著者：</span>白川 紺子（しらかわ こうこ）</p><p><span class="label">第1巻発売日：</span>2018年04月20日</p><p class="summary"><span class="label">概要：</span>後宮の奥深くに暮らす特別な妃・烏妃が、怪異や謎めいた依頼を解き明かしていく中華幻想譚。</p></div>
 </article>
-<article class="book-card no-cover">
+<article class="book-card no-cover" data-date="2012-06-26">
 <div class="info"><h2>八咫烏シリーズ</h2><p><span class="label">著者：</span>阿部智里（あべ ちさと）</p><p><span class="label">第1巻発売日：</span>2012年06月26日</p><p class="summary"><span class="label">概要：</span>人の姿に変身する八咫烏の一族が暮らす異世界・山内を舞台に、宮廷の権力争いや謎を描く和風ファンタジー。</p></div>
 </article>
 </section>
 </main>
 <footer>© Mama's LIFE NOTE</footer>
+
+<script>
+(function(){
+  const list=document.getElementById('series-list');
+  const desc=document.getElementById('sort-desc');
+  const asc=document.getElementById('sort-asc');
+  function sortBooks(newestFirst){
+    const cards=Array.from(list.querySelectorAll('.book-card'));
+    cards.sort((a,b)=>{
+      const da=new Date(a.dataset.date);
+      const db=new Date(b.dataset.date);
+      return newestFirst ? db-da : da-db;
+    });
+    cards.forEach(card=>list.appendChild(card));
+    desc.classList.toggle('active', newestFirst);
+    asc.classList.toggle('active', !newestFirst);
+    desc.setAttribute('aria-pressed', String(newestFirst));
+    asc.setAttribute('aria-pressed', String(!newestFirst));
+  }
+  desc.addEventListener('click',()=>sortBooks(true));
+  asc.addEventListener('click',()=>sortBooks(false));
+})();
+</script>
 </body></html>
