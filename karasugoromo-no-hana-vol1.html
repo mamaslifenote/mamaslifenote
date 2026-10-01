@@ -999,8 +999,8 @@
 <span class="unavailable"><small>前の巻</small>第1巻のためありません</span>
 
 <a class="series-return" href="karasugoromo-no-hana-series.html"><small>戻る</small>烏衣の華 シリーズ一覧</a>
-<!-- 第2巻公開時に次巻リンクを設定 -->
-<span class="unavailable"><small>次の巻・未公開</small>烏衣の華 2</span>
+
+<a href="karasugoromo-no-hana-vol2.html"><small>次の巻</small>烏衣の華 2</a>
 </nav>
 
 </footer></main><script>(function(){const ARTICLE_ID='karasugoromo-no-hana-vol1';const SUPABASE_URL='https://bbyauxdtoorummtgnkzj.supabase.co';const SUPABASE_KEY='sb_publishable_8_Zj5218vMCffmxKOenXCA_K6VtrlPQ';const btn=document.getElementById('likeButton'),count=document.getElementById('likeCount'),msg=document.getElementById('likeMessage');const likedKey='liked:'+ARTICLE_ID;async function loadLike(){try{const r=await fetch(SUPABASE_URL+'/rest/v1/article_likes?article_id=eq.'+encodeURIComponent(ARTICLE_ID)+'&select=likes',{headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+SUPABASE_KEY}});const d=await r.json();count.textContent=(d&&d[0]&&Number.isFinite(Number(d[0].likes)))?Number(d[0].likes):0;}catch(e){}}if(localStorage.getItem(likedKey)){btn.disabled=true;btn.textContent='♥ いいね済み';}btn.addEventListener('click',async()=>{if(localStorage.getItem(likedKey))return;btn.disabled=true;try{const r=await fetch(SUPABASE_URL+'/rest/v1/rpc/add_like',{method:'POST',headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+SUPABASE_KEY,'Content-Type':'application/json'},body:JSON.stringify({p_article_id:ARTICLE_ID})});if(!r.ok)throw new Error();const d=await r.json();if(typeof d==='number')count.textContent=d;else await loadLike();localStorage.setItem(likedKey,'1');btn.textContent='♥ いいね済み';msg.textContent='ありがとうございます。';}catch(e){btn.disabled=false;msg.textContent='いいねを送信できませんでした。';}});loadLike();})();</script></body></html>
