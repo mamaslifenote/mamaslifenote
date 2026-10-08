@@ -38,8 +38,11 @@ a[href="vivant-s1-ep3.html"].episode img{width:150px!important;height:94px!impor
 
 a[href="vivant-s1-ep4.html"].episode{display:grid!important;grid-template-columns:150px 1fr!important;gap:18px!important;align-items:center!important}
 a[href="vivant-s1-ep4.html"].episode img{width:150px!important;height:94px!important;object-fit:cover!important;border-radius:12px!important;display:block!important}
-</style>
-</head>
+
+.likebox{background:#fff;border:1px solid #ebe6dc;border-radius:18px;padding:22px 26px;margin-top:24px}.like-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.like-btn{appearance:none;border:1px solid #e2d9d0;background:#fff;border-radius:999px;padding:10px 18px;font-size:16px;cursor:pointer}.like-btn.liked{background:#fff2f4;border-color:#efb7c1}.like-count{font-weight:700}.like-msg{font-size:13px;color:#777;margin-top:8px}
+body{color:#303331;line-height:1.9}main{max-width:900px;padding:42px 22px 72px}.hero{margin-bottom:24px}.hero h1{font-size:34px;line-height:1.45}
+@media(max-width:650px){main{padding:28px 14px 55px}.hero{padding:24px 20px}.hero h1{font-size:27px}a[href="vivant-s1-ep3.html"].episode,a[href="vivant-s1-ep4.html"].episode{grid-template-columns:92px 1fr!important;gap:12px!important}a[href="vivant-s1-ep3.html"].episode img,a[href="vivant-s1-ep4.html"].episode img{width:92px!important;height:68px!important}}</style>
+<meta content="VIVANT,第1シリーズ,あらすじ,人物関係,伏線,考察,乃木憂助,野崎守,黒須駿,別班,テント,丹後隼人,ベキ" name="keywords"/><meta content="website" property="og:type"/><meta content="VIVANT シリーズ1｜各話あらすじ・伏線・考察｜Mama's LIFE NOTE" property="og:title"/><meta content="ドラマ『VIVANT』シリーズ1の各話を、あらすじ・人物関係・伏線・考察とともに整理。第1話から順番にまとめています。" property="og:description"/><meta content="https://mamaslifenote.github.io/mamaslifenote/vivant-series1.html" property="og:url"/><meta content="https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep5-thumb.png" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="VIVANT シリーズ1｜各話あらすじ・伏線・考察｜Mama's LIFE NOTE" name="twitter:title"/><meta content="ドラマ『VIVANT』シリーズ1の各話を、あらすじ・人物関係・伏線・考察とともに整理。第1話から順番にまとめています。" name="twitter:description"/><meta content="https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep5-thumb.png" name="twitter:image"/><link href="https://mamaslifenote.github.io/mamaslifenote/vivant-series1.html" rel="canonical"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "CollectionPage", "headline": "VIVANT シリーズ1｜各話あらすじ・伏線・考察", "description": "ドラマ『VIVANT』シリーズ1の各話を、あらすじ・人物関係・伏線・考察とともに整理。第1話から順番にまとめています。", "url": "https://mamaslifenote.github.io/mamaslifenote/vivant-series1.html", "inLanguage": "ja", "author": {"@type": "Organization", "name": "Mama's LIFE NOTE"}}</script></head>
 <body>
 <header><div class="nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav>
 <a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物・蝶</a><a href="#">🎬 映画</a><a href="drama.html">📺 ドラマ</a><a href="#">📚 本・小説</a>
@@ -71,10 +74,53 @@ a[href="vivant-s1-ep4.html"].episode img{width:150px!important;height:94px!impor
 </div>
 </a>
 <a class="episode" href="vivant-s1-ep3.html"><img alt="VIVANT 第3話" src="vivant-s1-ep3-thumb.jpg"/><div><div class="meta">2023年7月30日放送</div><h2>第3話｜アド砂漠脱出と誤送金事件の犯人</h2><p>薫救出、国境脱出、帰国後の誤送金調査まで。</p><div class="go">第3話を見る →</div></div></a>
-
 <a class="episode" href="vivant-s1-ep4.html"><img alt="VIVANT 第4話" class="thumb" src="vivant-s1-ep4-thumb.jpg"/><div><div class="meta">2023年8月6日放送</div><h2>第4話｜山本の正体、乃木・黒須＝別班が判明</h2><p>ブルーウォーカー太田、長野専務、山本の正体、そして乃木と黒須が別班と明らかになるまでを整理します。</p><div class="go">第4話を見る →</div></div></a>
-</section>
-</main>
+<a class="episode" href="vivant-s1-ep5.html"><img alt="VIVANT 第1シリーズ 第5話 総合ガイド" class="thumb" src="vivant-s1-ep5-thumb.png"/><div><div class="meta">2023年8月13日放送</div><h2>第5話｜乃木の過去と父・ベキの正体</h2><p>野崎が追う丹後隼人の過去、アリへの尋問、乃木家の家紋とテントの接点を整理します。</p><div class="go">第5話を見る →</div></div></a></section>
+<section class="likebox"><div class="like-row"><button class="like-btn" id="likeButton" type="button">♡ いいね</button><span><span class="like-count" id="likeCount">0</span> 件</span></div><div class="like-msg" id="likeMessage"></div></section></main>
 <footer>© Mama's LIFE NOTE</footer>
-</body>
+<script>
+const SUPABASE_URL="https://bbyauxdtoorummtgnkzj.supabase.co";
+const SUPABASE_KEY="sb_publishable_8_Zj5218vMCffmxKOenXCA_K6VtrlPQ";
+const ARTICLE_ID="vivant-series1";
+const STORAGE_KEY="mamas-life-note-liked:"+ARTICLE_ID;
+async function loadLikes(){
+  const u=`${SUPABASE_URL}/rest/v1/article_likes?article_id=eq.${encodeURIComponent(ARTICLE_ID)}&select=likes`;
+  const r=await fetch(u,{headers:{"apikey":SUPABASE_KEY}});
+  if(!r.ok) throw new Error();
+  const d=await r.json();
+  document.getElementById("likeCount").textContent=d.length?d[0].likes:0;
+}
+async function addLike(){
+  if(localStorage.getItem(STORAGE_KEY)) return;
+  const b=document.getElementById("likeButton");
+  b.disabled=true;
+  const r=await fetch(`${SUPABASE_URL}/rest/v1/rpc/add_like`,{
+    method:"POST",
+    headers:{"apikey":SUPABASE_KEY,"Content-Type":"application/json"},
+    body:JSON.stringify({p_article_id:ARTICLE_ID})
+  });
+  if(!r.ok){
+    b.disabled=false;
+    document.getElementById("likeMessage").textContent="いいねを送信できませんでした。";
+    return;
+  }
+  const n=await r.json();
+  localStorage.setItem(STORAGE_KEY,"1");
+  document.getElementById("likeCount").textContent=n;
+  b.textContent="♥ いいね済み";
+  b.classList.add("liked");
+  document.getElementById("likeMessage").textContent="ありがとうございます。";
+}
+const b=document.getElementById("likeButton");
+if(localStorage.getItem(STORAGE_KEY)){
+  b.textContent="♥ いいね済み";
+  b.classList.add("liked");
+  b.disabled=true;
+}else{
+  b.addEventListener("click",addLike);
+}
+loadLikes().catch(()=>{
+  document.getElementById("likeMessage").textContent="いいね数を取得できませんでした。";
+});
+</script></body>
 </html>
