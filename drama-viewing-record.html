@@ -47,11 +47,15 @@ footer{text-align:center;padding:28px;border-top:1px solid #e9e5dc;color:#888;fo
 .series-link p{font-size:13px;color:#666;margin:0}
 @media(max-width:650px){.record-item{grid-template-columns:112px 1fr;gap:12px}.record-item .thumb{width:112px;height:70px}.record-item h3{font-size:16px}}
 
+
+.sort-controls{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 22px}.sort-controls button{border:1px solid #d9d4c9;background:#fff;padding:9px 14px;border-radius:999px;font-size:14px;cursor:pointer}.sort-controls button.active{font-weight:700;background:#f0eee8}
+.sort-controls{font-size:16px;line-height:1.75;color:#2f3331}
 </style></head><body>
 <header><div class="wrap"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav><a href="garden.html">🌿 庭・植物・蝶</a><a href="movie.html">🎬 映画</a><a href="drama.html">📺 ドラマ</a><a href="books.html">📚 本・小説</a></nav></div></header>
 <main class="wrap"><div class="crumb"><a href="index.html">HOME</a> › <a href="drama.html">ドラマ</a> › 視聴記録</div>
 <article>
 <h1>ドラマ視聴記録</h1>
+<div class="sort-controls" aria-label="放送日順の並び替え"><span class="sort-label">放送日順：</span><button type="button" id="sort-desc" class="active" aria-pressed="true">新しいのが上</button><button type="button" id="sort-asc" aria-pressed="false">古いのが上</button></div>
 <section class="year-records">
 <h2>2026年</h2>
 <p>視聴したドラマを、最新のものから順に記録しています。</p>
@@ -96,4 +100,43 @@ footer{text-align:center;padding:28px;border-top:1px solid #e9e5dc;color:#888;fo
 <h2>作品・シリーズから見る</h2>
 <a class="series-link" href="vivant-series2.html"><h3>VIVANT 第2シリーズ</h3><p>第11話から第20話までの各話一覧を見る →</p></a>
 </section>
-</article></main></body></html>
+</article></main><script>
+(function(){
+  const desc=document.getElementById('sort-desc');
+  const asc=document.getElementById('sort-asc');
+  const episodeList=document.querySelector('.episode-list');
+  const years=Array.from(document.querySelectorAll('.year-records')).filter(section=>/^\d{4}年$/.test(section.querySelector('h2')?.textContent.trim()||''));
+  const lists=episodeList?[episodeList]:years.flatMap(section=>Array.from(section.querySelectorAll('.record-list')));
+  const items=new Map(lists.map(list=>[list,Array.from(list.children)]));
+  function episodeNumber(card){
+    const match=(card.getAttribute('href')||'').match(/vivant-s\d+-ep(\d+)\.html/);
+    return match?Number(match[1]):0;
+  }
+  function sortRecords(newestFirst){
+    for(const [list,original] of items){
+      const cards=original.slice();
+      if(episodeList){cards.sort((a,b)=>newestFirst?episodeNumber(b)-episodeNumber(a):episodeNumber(a)-episodeNumber(b));}
+      else if(!newestFirst){cards.reverse();}
+      cards.forEach(card=>list.appendChild(card));
+    }
+    if(years.length){
+      const ordered=years.slice().sort((a,b)=>{
+        const aYear=parseInt(a.querySelector('h2').textContent,10);
+        const bYear=parseInt(b.querySelector('h2').textContent,10);
+        return newestFirst?bYear-aYear:aYear-bYear;
+      });
+      const container=years[0].parentElement;
+      const marker=Array.from(container.children).find(node=>node.classList.contains('year-records')&&!years.includes(node));
+      ordered.forEach(section=>container.insertBefore(section,marker||null));
+    }
+    desc.classList.toggle('active',newestFirst);
+    asc.classList.toggle('active',!newestFirst);
+    desc.setAttribute('aria-pressed',String(newestFirst));
+    asc.setAttribute('aria-pressed',String(!newestFirst));
+  }
+  desc.addEventListener('click',()=>sortRecords(true));
+  asc.addEventListener('click',()=>sortRecords(false));
+  sortRecords(true);
+})();
+</script>
+</body></html>
