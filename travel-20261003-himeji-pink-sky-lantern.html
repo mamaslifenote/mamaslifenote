@@ -46,8 +46,8 @@ header{background:#fff;border-bottom:1px solid #e5e1d8}.nav{max-width:1180px;mar
 <h4>① 姫路城のピンクライトアップ</h4>
 <p>姫路城では、ピンクリボン運動の一環として、2026年10月1日と10月3日にピンク色のライトアップが案内されました。</p>
 <p>白い漆喰が印象的な姫路城がピンク色に照らされ、普段とは異なる表情を見せます。この特別な色は、乳がんの正しい知識と検診の大切さを広く伝えるためのものです。</p>
-<figure class="diary-photo"><img src="travel-20261003-himeji-castle-landscape.jpg" alt="ピンク色にライトアップされた姫路城（横写真）" width="1600" height="1200" loading="lazy" decoding="async"><figcaption>Photo © Mama’s LIFE NOTE</figcaption></figure>
-<figure class="diary-photo portrait"><img src="travel-20261003-himeji-castle-portrait.jpg" alt="ピンク色にライトアップされた姫路城（縦写真）" width="1200" height="1600" loading="lazy" decoding="async"><figcaption>Photo © Mama’s LIFE NOTE</figcaption></figure>
+<figure class="diary-photo"><img src="travel-20261003-himeji-castle-landscape.jpg" alt="ピンク色にライトアップされた姫路城（横写真）" width="1600" height="1200" loading="eager" decoding="async"><figcaption>Photo © Mama’s LIFE NOTE</figcaption></figure>
+<figure class="diary-photo portrait"><img src="travel-20261003-himeji-castle-portrait.jpg" alt="ピンク色にライトアップされた姫路城（縦写真）" width="1200" height="1600" loading="eager" decoding="async"><figcaption>Photo © Mama’s LIFE NOTE</figcaption></figure>
 <h4>② ピンクスカイランタンの一斉打上げ</h4>
 <p>姫路城ピンクスカイランタンは、2026年で4回目の開催を迎えました。</p>
 <p>イベントの中心となるのは、18時30分のスカイランタン打上げです。</p>
@@ -71,13 +71,13 @@ header{background:#fff;border-bottom:1px solid #e5e1d8}.nav{max-width:1180px;mar
 <p>引き換えた時点では、まだ周囲が明るく、ランタンのピンクの光はそれほど目立ちませんでした。それでも、実際にランタンを手にすると、これから始まる打上げへの楽しみが増していきました。</p>
 <p>18時30分の打上げ時刻になる頃には、辺りも薄暗くなり、ランタンのピンクの光がきれいに浮かび上がるようになりました。受け取ったときとは印象が変わり、夕暮れのなかでやさしく発光する姿が、とてもきれいでした。</p>
 <p>妻と2人で同じ光景を眺めながら過ごす時間は、結婚記念日の思い出にふさわしい、心に残るひとときになりました。おいしい食事を楽しみ、最後にピンクのランタンを一緒に上げることができ、10月の大切な思い出がまた一つ増えました。</p>
-<figure class="diary-photo"><img src="travel-20261003-himeji-lanterns.jpg" alt="夜空に浮かぶピンクのスカイランタン" width="1600" height="1200" loading="lazy" decoding="async"><figcaption>Photo © Mama’s LIFE NOTE</figcaption></figure>
+<figure class="diary-photo"><img src="travel-20261003-himeji-lanterns.jpg" alt="夜空に浮かぶピンクのスカイランタン" width="1600" height="1200" loading="eager" decoding="async"><figcaption>Photo © Mama’s LIFE NOTE</figcaption></figure>
 <div class="tags" aria-label="タグ"><a class="tag" href="https://mamaslifenote.github.io/mamaslifenote/tags.html?tag=旅行">旅行</a><a class="tag" href="https://mamaslifenote.github.io/mamaslifenote/tags.html?tag=姫路城">姫路城</a><a class="tag" href="https://mamaslifenote.github.io/mamaslifenote/tags.html?tag=スカイランタン">スカイランタン</a><a class="tag" href="https://mamaslifenote.github.io/mamaslifenote/tags.html?tag=結婚記念日">結婚記念日</a></div>
 <section class="likebox"><div class="like-row"><button id="likeButton" class="like-btn" type="button">♡ いいね</button><span><span id="likeCount" class="like-count">0</span> 件</span></div><div id="likeMessage" class="like-msg"></div></section>
-<div class="backlinks"><a href="travel-20260919-kishiwada-danjiri.html">← 前の日記</a><a href="travel.html">旅行・思い出・日記の記録一覧へ戻る</a><span style="color:#888;font-size:14px" aria-disabled="true">次の日記 →</span></div>
+<div class="backlinks"><a href="travel-20260919-kishiwada-danjiri.html">← 前の日記</a><a href="travel.html">旅行・思い出・日記の記録一覧へ戻る</a><a href="travel-20261010-hiraoka-futon-taiko.html">次の日記 →</a></div>
 </article></main><footer>日々の小さな「好き」を記録して。　© Mama's LIFE NOTE</footer>
-<script>
-(function(){
+
+<script>(function(){
 const ARTICLE_ID='travel-himeji-pink-sky-lantern-20261003';
 const SUPABASE_URL='https://bbyauxdtoorummtgnkzj.supabase.co';
 const SUPABASE_KEY='sb_publishable_8_Zj5218vMCffmxKOenXCA_K6VtrlPQ';
@@ -87,5 +87,4 @@ async function loadLike(){try{const r=await fetch(SUPABASE_URL+'/rest/v1/article
 if(localStorage.getItem(likedKey)){btn.disabled=true;btn.textContent='♥ いいね済み';}
 btn.addEventListener('click',async()=>{if(localStorage.getItem(likedKey))return;btn.disabled=true;try{const r=await fetch(SUPABASE_URL+'/rest/v1/rpc/add_like',{method:'POST',headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+SUPABASE_KEY,'Content-Type':'application/json'},body:JSON.stringify({p_article_id:ARTICLE_ID})});if(!r.ok)throw new Error();const d=await r.json();if(typeof d==='number')count.textContent=d;else await loadLike();localStorage.setItem(likedKey,'1');btn.textContent='♥ いいね済み';msg.textContent='ありがとうございます。';}catch(e){btn.disabled=false;msg.textContent='いいねを送信できませんでした。';}});loadLike();
 })();
-</script>
-</body></html>
+</script></body></html>
