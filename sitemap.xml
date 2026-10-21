@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/</loc>
     <lastmod>2026-09-03</lastmod>
@@ -112,7 +112,7 @@
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series2.html</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -567,6 +567,7 @@
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep10.html</loc>
+    <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep7.html</loc>
@@ -585,5 +586,13 @@
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/yatagarasu-series.html</loc>
+  </url>
+  <url>
+    <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11.html</loc>
+    <lastmod>2026-10-21</lastmod>
+    <image:image><image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-thumb.png</image:loc><image:caption>第21話のあらすじ・人物関係・伏線・考察を整理した総合ガイド｜Mama&#x27;s LIFE NOTE オリジナル図解</image:caption></image:image>
+    <image:image><image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-diagram-1.png</image:loc><image:caption>図解① A・B・C地区での追跡阻止から、Xinxi本部への通話発覚、李茗沢の最期とFの登場まで｜Mama&#x27;s LIFE NOTE オリジナル図解</image:caption></image:image>
+    <image:image><image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-diagram-2.png</image:loc><image:caption>図解② 黒須駿による乃木家の守り刀の返還と、高田明敏が周浩然に突きつけた怒り、乃木憂助の制止を整理｜Mama&#x27;s LIFE NOTE オリジナル図解</image:caption></image:image>
+    <image:image><image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-diagram-3.png</image:loc><image:caption>図解③ パトカーによる離陸妨害の危険と、仲間を守るため地上に残ったチンギスの決断を整理｜Mama&#x27;s LIFE NOTE オリジナル図解</image:caption></image:image>
   </url>
 </urlset>
