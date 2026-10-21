@@ -1,14 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/hero-mamas-life-note.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/garden.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-category.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-category.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-zentai.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama.html</loc>
@@ -19,46 +31,82 @@
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-card.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-card.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-card.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-card.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-existing-photo.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-card.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-spring-autumn-migration-map.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-shinobu.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kijoran.html</loc>
@@ -94,353 +142,1037 @@
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series1-card.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series2-card.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series1.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series1-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep3-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep4-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep5-thumb.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep1.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series1-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep1-diagram.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep2.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series1-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep2-diagram.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series2.html</loc>
     <lastmod>2026-10-21</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep10-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep9-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep8-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep7-thumb-final.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep6-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep5-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep4-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep3-thumb-v2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep2-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series2-thumb.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep1.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series2-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep1-diagram-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep1-diagram-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep1-diagram-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep2.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep2-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep2-diagram-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep2-diagram-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep2-diagram-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep3.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep3-thumb-v2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep3-diagram-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep3-diagram-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep3-diagram-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep4.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep4-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep4-diagram-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep4-diagram-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep4-diagram-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep5.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep5-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep5-diagram-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep5-diagram-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep5-diagram-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep6.html</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep6-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep6-diagram-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep6-diagram-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep6-diagram-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-2025.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20250906.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20250920.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20251025.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20250906.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20250906.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20250920.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20250920.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20251025.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20251025.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260404.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260404.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260425.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260425.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260506.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260506.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260606.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260606.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260616.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260616-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260616-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260712.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260712.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260902.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260902.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260905.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260905-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260905-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260905-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260913.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260913-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260913-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260922.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260922-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260922-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260928.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260928-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20260928-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261004.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261004-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261004-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261012.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261012-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261012-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261012-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-5.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-6.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-7.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-8.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-9.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-10.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-11.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20250830.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2025-08-30.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20251101.html</loc>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261003.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261003-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261003-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261003-3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261003-4.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012-03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012-04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012-05.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012-06.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012-07.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012-08.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012-09.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261012-10.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261015.html</loc>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261016.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261016-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261016-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261016-03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261016-04.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-05.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-06.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-07.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-08.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-09.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-10.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261017-11.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261018.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261018-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261018-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261018-03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261018-04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261018-05.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261018-06.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261018-07.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261018-08.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/asagimadara-20261018-09.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260506.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260506.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260616.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260616.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260627.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260627.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260712.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260712.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260720.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260720.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260905.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260905.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260912.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260912.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260921.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-aobana-20260921.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2025.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2025-08-09.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2025-08-30.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2025-09-20.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-2025.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20250719.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20250920.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20251025.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20250719.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20250719.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20250920.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20250920.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20251025.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20251025.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260404.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260404.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260425.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260425.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260506.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260506.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260616.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260616.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260720.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260720.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260905.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260905.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260914.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260914.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260923.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-pinkfrost-20260923.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20250809.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20250809.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20250920.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20250920-02.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20250920-01.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20251025.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20251025.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260301.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260301.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260404.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260404.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260425.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260425.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260506.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260506.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260616.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260616.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260712.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260712.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260905.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260905.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260914.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260914.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260922.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260922.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260928.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20260928.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20261004.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20261004.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20261012.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20261012-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20261012-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20261017.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20261017-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20261017-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-hagoromo-20261017-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260425.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260425.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260616.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260616.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260905.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260905-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260905-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260914.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260914.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260922.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260922-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20260922-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20261004.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20261004-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-kikuba-20261004-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-2025.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20250906.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20250920.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20251025.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20250906.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20250906.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20250920.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20250920.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20251025.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20251025.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260301.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260301.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260404.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260404.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260506.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260506.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260616.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260616.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260802.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260802.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260902.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260902.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260914.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260914.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260923.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260923.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260928.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20260928.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20261004.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20261004.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20261012.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20261012-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20261012-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20261012-03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20261012-04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20261012-05.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20261012-06.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-white-20261012-07.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2025-08-09.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2025-08-09.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2025-08-30.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2025-08-30.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2025-09-20.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2025-09-20.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-04-19.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-04-19-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-04-19-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-04-25.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-04-25.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-05-06.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-05-06.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-06-06.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-06-06.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-06-16.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-06-16.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-06-27.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-06-27.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-07-12.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-07-12-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-07-12-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-07-12-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-08-02.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-08-02-flower.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-08-02-planter.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-09-05.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-05-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-05-02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-05-03.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-05-04.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-05-05.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-05-06.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-05-07.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-05-08.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-05-09.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-09-14.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-14-01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-14-02.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-09-23.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-09-23-01.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/eupatorium-babyjoe-2026-10-04.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/babyjoe-2026-10-04-01.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/blueberry-climax.html</loc>
@@ -453,12 +1185,75 @@
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/books-series.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/karasugoromo-no-hana.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/wadatsumi-no-musume.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/leende.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/hanabishi-fusai-no-taimacho.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kijin-gentosho.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kokyu-no-karasu.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/yatagarasu-series.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/books.html</loc>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/drama-viewing-record.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep10-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep9-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep8-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep7-thumb-final.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep6-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep5-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep4-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep3-thumb-v2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep2-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series2-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep5-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep4-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep3-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-series1-thumb.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/hanabishi-fusai-no-taimacho-series.html</loc>
@@ -468,39 +1263,99 @@
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan-2025.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20250719.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20250809.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20250920.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20251025.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20250719.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20250719.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20250809.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20250809.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20250920.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20250920.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20251025.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20251025.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260627.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260627-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260627-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260712.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260712-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260712-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260712-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260809.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260809-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260809-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260902.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260902-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260902-2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260905.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kadan-20260905.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kadan.html</loc>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/karasu-ni-hitoe-wa-niawanai.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/yatagarasu-vol1-diagram1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/yatagarasu-vol1-diagram2.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/karasugoromo-no-hana-series.html</loc>
@@ -519,18 +1374,33 @@
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20260712.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20260712.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20260722.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20260722.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20260830.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20260830.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20260905.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20260905.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20260919.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20260919.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/kokyu-no-karasu-series.html</loc>
@@ -546,37 +1416,148 @@
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/travel-20260919-kishiwada-danjiri.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/travel-20260919-kishiwada-station-1330.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/travel-20260919-kishiwada-danjiri-01.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/travel-20261003-himeji-pink-sky-lantern.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/travel-20261003-himeji-castle-landscape.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/travel-20261003-himeji-castle-portrait.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/travel-20261003-himeji-lanterns.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/travel-20261010-hiraoka-futon-taiko.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/travel-20261010-hiraoka-futon-taiko.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/travel.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/travel-20261010-hiraoka-futon-taiko.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/travel-20261003-himeji-lanterns.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/travel-20260919-kishiwada-danjiri-01.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep3.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep3-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep3-diagram-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep3-diagram-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep3-diagram-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep4.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep4-thumb.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep4-diagram-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep4-diagram-3.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep4-diagram-1.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep5.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep5-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep5-diagram-1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep5-diagram-2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s1-ep5-diagram-3.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep10.html</loc>
     <lastmod>2026-10-21</lastmod>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep10-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep10-diagram-1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep10-diagram-2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep10-diagram-3.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep7.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep7-thumb-final.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep7-diagram-1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep7-diagram-2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep7-diagram-3.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep8.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep8-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep8-diagram-1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep8-diagram-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep8-diagram-3.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep9.html</loc>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep9-thumb.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep9-diagram-1.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep9-diagram-3.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep9-diagram-2.png</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/wadatsumi-no-musume-series.html</loc>
@@ -590,9 +1571,21 @@
   <url>
     <loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11.html</loc>
     <lastmod>2026-10-21</lastmod>
-    <image:image><image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-thumb.png</image:loc><image:caption>第21話のあらすじ・人物関係・伏線・考察を整理した総合ガイド｜Mama&#x27;s LIFE NOTE オリジナル図解</image:caption></image:image>
-    <image:image><image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-diagram-1.png</image:loc><image:caption>図解① A・B・C地区での追跡阻止から、Xinxi本部への通話発覚、李茗沢の最期とFの登場まで｜Mama&#x27;s LIFE NOTE オリジナル図解</image:caption></image:image>
-    <image:image><image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-diagram-2.png</image:loc><image:caption>図解② 黒須駿による乃木家の守り刀の返還と、高田明敏が周浩然に突きつけた怒り、乃木憂助の制止を整理｜Mama&#x27;s LIFE NOTE オリジナル図解</image:caption></image:image>
-    <image:image><image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-diagram-3.png</image:loc><image:caption>図解③ パトカーによる離陸妨害の危険と、仲間を守るため地上に残ったチンギスの決断を整理｜Mama&#x27;s LIFE NOTE オリジナル図解</image:caption></image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-thumb.png</image:loc>
+      <image:caption>第21話のあらすじ・人物関係・伏線・考察を整理した総合ガイド｜Mama's LIFE NOTE オリジナル図解</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-diagram-1.png</image:loc>
+      <image:caption>図解① A・B・C地区での追跡阻止から、Xinxi本部への通話発覚、李茗沢の最期とFの登場まで｜Mama's LIFE NOTE オリジナル図解</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-diagram-2.png</image:loc>
+      <image:caption>図解② 黒須駿による乃木家の守り刀の返還と、高田明敏が周浩然に突きつけた怒り、乃木憂助の制止を整理｜Mama's LIFE NOTE オリジナル図解</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mamaslifenote.github.io/mamaslifenote/vivant-s2-ep11-diagram-3.png</image:loc>
+      <image:caption>図解③ パトカーによる離陸妨害の危険と、仲間を守るため地上に残ったチンギスの決断を整理｜Mama's LIFE NOTE オリジナル図解</image:caption>
+    </image:image>
   </url>
 </urlset>
