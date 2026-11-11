@@ -35,9 +35,36 @@ h1{font-family:Georgia,"Yu Mincho",serif;font-size:34px;line-height:1.45;margin:
 footer{text-align:center;padding:28px;border-top:1px solid #e9e5dc;color:#888;font-size:12px;background:#fff}
 @media(max-width:650px){.nav{flex-direction:column}main{padding:28px 14px 55px}.article-head,.content{padding:24px 20px}h1{font-size:27px}}
 </style>
+<style id="garden-navigation-style">
+.garden-site-header{background:#fff;border-bottom:1px solid #e5e1d8}
+.garden-site-header .garden-site-nav{max-width:1180px;margin:auto;padding:17px 22px;display:flex;justify-content:space-between;align-items:center}
+.garden-site-header .brand{font:700 28px Georgia,serif;text-decoration:none;color:#344b35}
+.garden-site-header nav a{margin-left:22px;text-decoration:none;color:#3f503e;font-size:14px}
+body > footer{text-align:center;padding:28px;border-top:1px solid #dedbd2;background:#f1f3ed;color:#888;font-size:12px}
+@media(max-width:800px){
+  .garden-site-header .garden-site-nav{padding:13px;align-items:flex-start}
+  .garden-site-header .brand{font-size:20px}
+  .garden-site-header nav{text-align:right}
+  .garden-site-header nav a{margin-left:8px;font-size:11px}
+}
+.record-nav { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:14px; text-align:left; }
+.record-nav .record-nav-card { display:flex; justify-content:space-between; align-items:center; gap:14px; margin:0; padding:18px 22px; border:1px solid #e5ddd2; border-radius:16px; background:#fff; color:#496048; text-decoration:none; }
+.record-nav-card strong { font-size:17px; }
+.record-nav-description { font-size:13px; color:#777; }
+.record-nav-direction { flex:none; font-size:13px; }
+.record-related { margin-top:26px; padding:18px 22px; border-radius:16px; background:#f5f2eb; }
+.record-related-links { display:flex; flex-wrap:wrap; gap:4px 14px; margin-top:4px; }
+.record-related-links a { color:#496048; font-size:14px; }
+.record-nav-card:hover strong, .record-related-links a:hover { text-decoration:underline; }
+@media (max-width:650px) {
+  .record-nav { grid-template-columns:1fr; }
+  .record-nav .record-nav-card { gap:8px; padding:14px; }
+  .record-related { padding:14px; }
+}
+</style>
 </head>
 <body>
-<header class="site"><div class="nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav><a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物・蝶</a><a href="#">🎬 映画</a><a href="drama.html">📺 ドラマ</a><a href="#">📚 本・小説</a></nav></div></header>
+<header class="garden-site-header"><div class="garden-site-nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav><a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物・蝶</a><a href="travel.html">🧳 旅行・思い出・日記</a><a href="movies.html">🎬 映画</a><a href="drama.html">📺 ドラマ</a><a href="books.html">📚 本・小説</a></nav></div></header>
 <main>
 <div class="breadcrumb"><a href="index.html">ホーム</a> ＞ <a href="garden.html">庭・植物・蝶</a> ＞ <a href="eupatorium.html">ユーパトリウム</a> ＞ <a href="eupatorium-babyjoe.html">ベイビージョー</a> ＞ 2026年8月2日</div>
 <article>
@@ -61,9 +88,24 @@ footer{text-align:center;padding:28px;border-top:1px solid #e9e5dc;color:#888;fo
 <p>写真では、左がフジバカマ（原種系）、右がベイビージョーです。</p>
 </section>
 <section class="likebox"><div class="like-row"><button id="likeButton" class="like-btn" type="button">♡ いいね</button><span><span id="likeCount" class="like-count">0</span> 件</span></div><div id="likeMessage" class="like-msg"></div></section>
-<div class="navbox"><a href="eupatorium-babyjoe-2026-07-12.html"><strong>← 前の生育記録</strong><br><span>2026年7月12日｜蕾が淡いピンク色に変化、いよいよ開花直前</span></a><br><br><a href="eupatorium-babyjoe-2026-09-05.html"><strong>次の生育記録 →</strong><br><span>2026年9月5日｜花後の新芽から、再び蕾を確認</span></a></div>
-<div class="related"><strong>ベイビージョーの記録</strong><br><a href="eupatorium-babyjoe.html">← ベイビージョー「わが家の生育記録」へ戻る</a></div>
-</article></main><footer>© Mama's LIFE NOTE</footer>
+<nav class="record-nav" aria-label="前後の生育記録">
+  <a class="record-nav-card" href="eupatorium-babyjoe-2026-07-12.html">
+    <span><strong>← 2026/07/12の記録はこちら</strong><br><span class="record-nav-description">蕾が淡いピンク色に変化、いよいよ開花直前</span></span>
+    <span class="record-nav-direction">前の記録へ</span>
+  </a>
+  <a class="record-nav-card" href="eupatorium-babyjoe-2026-09-05.html">
+    <span><strong>2026/09/05の記録はこちら →</strong><br><span class="record-nav-description">花後の新芽から、再び蕾を確認</span></span>
+    <span class="record-nav-direction">次の記録へ</span>
+  </a>
+</nav>
+<div class="record-related">
+  <strong>ベイビージョーの生育記録・一覧</strong>
+  <div class="record-related-links">
+    <a href="eupatorium-babyjoe.html">← ベイビージョーの生育記録へ戻る</a>
+    <a href="eupatorium.html">🌿 ユーパトリウム一覧へ</a>
+  </div>
+</div>
+</article></main><footer>日々の小さな「好き」を記録して。　© Mama's LIFE NOTE</footer>
 <script>
 const SUPABASE_URL="https://bbyauxdtoorummtgnkzj.supabase.co";
 const SUPABASE_KEY="sb_publishable_8_Zj5218vMCffmxKOenXCA_K6VtrlPQ";
