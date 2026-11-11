@@ -22,12 +22,31 @@ header{background:#fff;border-bottom:1px solid #e5e1d8}.nav{max-width:1180px;mar
 .prevnext{margin-top:20px;padding-top:18px;border-top:1px solid #e6e1d8;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.prevnext a{text-decoration:none;color:#496048;font-size:14px;font-weight:700}.prevnext a:hover{text-decoration:underline}
 @media(max-width:760px){.nav{padding:13px}.brand{font-size:20px}nav a{margin-left:8px;font-size:11px}.hero{padding:0 13px;margin-top:15px}.hero-inner{padding:34px 18px}h1{font-size:27px}.wrap{padding:20px 13px 45px}.article{padding:22px}}
 html,body{overflow-x:hidden}img{max-width:100%;height:auto}h1{overflow-wrap:anywhere}</style>
+
+<style>
+body > header{background:#fff;border-bottom:1px solid #e5e1d8}body > header .nav{max-width:1180px;margin:auto;padding:17px 22px;display:flex;justify-content:space-between;align-items:center}
+body > header .brand{font:700 28px Georgia,serif;text-decoration:none;color:#344b35}body > header nav a{margin-left:22px;text-decoration:none;color:#3f503e;font-size:14px}
+@media(max-width:800px){body > header .nav{padding:13px;align-items:flex-start}body > header .brand{font-size:20px}body > header nav{text-align:right}body > header nav a{margin-left:8px;font-size:11px}}
+</style>
+<style>
+.record-nav { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-top:14px; text-align:left; }
+.record-nav .record-nav-card { display:flex; justify-content:space-between; align-items:center; gap:14px; margin:0; padding:18px 22px; border:1px solid #e5ddd2; border-radius:16px; background:#fff; color:#496048; text-decoration:none; }
+.record-nav-card strong { font-size:17px; }
+.record-nav-description { font-size:13px; color:#777; }
+.record-nav-direction { flex:none; font-size:13px; }
+.record-related { margin-top:26px; padding:18px 22px; border-radius:16px; background:#f5f2eb; }
+.record-related-links { display:flex; flex-wrap:wrap; gap:4px 14px; margin-top:4px; }
+.record-related-links a { color:#496048; font-size:14px; }
+.record-nav-card:hover strong, .record-related-links a:hover { text-decoration:underline; }
+@media (max-width:650px) {
+  .record-nav { grid-template-columns:1fr; }
+  .record-nav .record-nav-card { gap:8px; padding:14px; }
+  .record-related { padding:14px; }
+}
+</style>
 </head>
 <body>
-<header><div class="nav">
-<a class="brand" href="index.html">Mama's LIFE NOTE</a>
-<nav><a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物</a><a href="fujibakama.html">🌸 フジバカマ</a></nav>
-</div></header>
+<header><div class="nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav><a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物・蝶</a><a href="travel.html">🧳 旅行・思い出・日記</a><a href="movies.html">🎬 映画</a><a href="drama.html">📺 ドラマ</a><a href="books.html">📚 本・小説</a></nav></div></header>
 
 
 <section class="hero"><div class="hero-inner">
@@ -45,10 +64,22 @@ html,body{overflow-x:hidden}img{max-width:100%;height:auto}h1{overflow-wrap:anyw
 
 
 <section class="likebox"><div class="like-row"><button id="likeButton" class="like-btn" type="button">♡ いいね</button><span><span id="likeCount" class="like-count">0</span> 件</span></div><div id="likeMessage" class="like-msg"></div></section>
-<div class="prevnext"><a href="fujibakama-white-20260928.html">← 前　2026/09/28はこちら</a><a href="fujibakama-white-20261012.html">次　2026/10/12はこちら →</a></div>
-<div class="backlinks">
-<a href="fujibakama-white.html">← 白フジバカマ（原種系）の生育記録へ戻る</a>
-<a href="fujibakama.html">フジバカマ一覧へ</a>
+<nav class="record-nav" aria-label="前後の生育記録">
+  <a class="record-nav-card" href="fujibakama-white-20260928.html">
+    <span><strong>← 2026/09/28の記録はこちら</strong><br><span class="record-nav-description">高く伸びた茎から手前の枝まで白い花房が並び、まだ多くの蕾を残しながら、一部で白い糸状の花が開いています。</span></span>
+    <span class="record-nav-direction">前の記録へ</span>
+  </a>
+  <a class="record-nav-card" href="fujibakama-white-20261012.html">
+    <span><strong>2026/10/12の記録はこちら →</strong><br><span class="record-nav-description">白い糸状の花が広がる花房にアサギマダラがとまり、株には開いた花・残る蕾・褐色に変化した部分が混在しています。</span></span>
+    <span class="record-nav-direction">次の記録へ</span>
+  </a>
+</nav>
+<div class="record-related">
+  <strong>フジバカマの生育記録・一覧</strong>
+  <div class="record-related-links">
+    <a href="fujibakama-white.html">← 白フジバカマ（原種系）の生育記録へ戻る</a>
+    <a href="fujibakama.html">🌿 フジバカマ一覧へ</a>
+  </div>
 </div>
 </article></main>
 <footer>日々の小さな「好き」を記録して。　© Mama's LIFE NOTE</footer>
