@@ -29,7 +29,7 @@
 </url>
 <url>
 <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native.html</loc>
-<lastmod>2026-09-03</lastmod>
+<lastmod>2026-11-17</lastmod>
 <priority>0.8</priority>
 <ns1:image>
 <ns1:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native.jpg</ns1:loc>
@@ -466,6 +466,7 @@
 </url>
 <url>
 <loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017.html</loc>
+<lastmod>2026-11-17</lastmod>
 <ns1:image>
 <ns1:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261017-1.jpg</ns1:loc>
 </ns1:image>
@@ -1744,5 +1745,12 @@
 <loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20261101.html</loc>
 <lastmod>2026-11-01</lastmod>
 <ns1:image><ns1:loc>https://mamaslifenote.github.io/mamaslifenote/kintokiso-20261101-hakkon-setsu.png</ns1:loc></ns1:image>
+</url>
+<url>
+<loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-native-20261101.html</loc>
+<lastmod>2026-11-17</lastmod>
+<ns1:image>
+<ns1:loc>https://mamaslifenote.github.io/mamaslifenote/fujibakama-sashiki-guide.png</ns1:loc>
+</ns1:image>
 </url>
 </urlset>
