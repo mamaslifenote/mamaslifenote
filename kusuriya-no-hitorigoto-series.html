@@ -60,14 +60,19 @@ footer{text-align:center;padding:28px 20px;border-top:1px solid #e9e5dc;color:#8
 .series-feature p {margin:0}
 a.series-feature:hover h2,a.series-feature:focus-visible h2 {text-decoration:underline;text-underline-offset:3px}
 </style>
+<style>
+.book-tags a.book-tag {display:inline-block;text-decoration:none}
+.book-tags a.book-tag:focus-visible {outline:2px solid currentColor;outline-offset:2px}
+.series-description [id] {scroll-margin-top:9rem}
+</style>
 </head>
 <body>
 <header><div class="nav"><a class="brand" href="index.html">Mama's LIFE NOTE</a><nav><a href="index.html">🏠 ホーム</a><a href="garden.html">🌿 庭・植物・蝶</a><a href="travel.html">🧳 旅行・思い出・日記</a><a href="movies.html">🎬 映画</a><a href="drama.html">📺 ドラマ</a><a href="books.html">📚 本・小説</a></nav></div></header>
 <main>
 <div class="breadcrumb"><a href="index.html">ホーム</a> ＞ <a href="books.html">本・小説</a> ＞ <a href="books-series.html">シリーズ 本・小説</a> ＞ 薬屋のひとりごとシリーズ</div>
-<section class="hero"><img class="cover" src="kusuriya-no-hitorigoto-vol1-cover.png" alt="ヒーロー文庫『薬屋のひとりごと』第1巻の表紙（日向夏 著、しのとうこ イラスト）" width="345" height="500" decoding="async"><div class="series-description"><h1>薬屋のひとりごとシリーズ</h1>
+<section class="hero"><img class="cover" src="kusuriya-no-hitorigoto-vol1-cover.png" alt="ヒーロー文庫『薬屋のひとりごと』第1巻の表紙（日向夏 著、しのとうこ イラスト）" width="345" height="500" decoding="async"><div class="series-description"><h1 id="kusuriya-series">薬屋のひとりごとシリーズ</h1>
 <p>日向夏さんの小説『薬屋のひとりごと』を、巻ごとにまとめています。</p>
-<p><span class="label">著者：</span>日向夏（ひゅうが なつ）</p><p><span class="label">文庫：</span>ヒーロー文庫</p><p><span class="label">第1巻発売日：</span>2014年8月29日</p><p class="summary"><span class="label">概要：</span>薬師の猫猫（マオマオ）が、薬と毒の知識を頼りに後宮や宮廷の謎を解く宮廷ミステリー。</p>
+<p id="kusuriya-author"><span class="label">著者：</span>日向夏（ひゅうが なつ）</p><p id="kusuriya-publisher"><span class="label">文庫：</span>ヒーロー文庫</p><p><span class="label">第1巻発売日：</span>2014年8月29日</p><p class="summary" id="kusuriya-summary"><span class="label">概要：</span>薬師の猫猫（マオマオ）が、薬と毒の知識を頼りに後宮や宮廷の謎を解く宮廷ミステリー。</p>
 </div></section>
 <section class="series-feature" aria-labelledby="series-characters"><h2 id="series-characters">登場人物</h2><p>原作小説に登場する人物と、その関係を紹介します。</p></section>
 <a class="series-feature" href="kusuriya-no-hitorigoto-namochi.html"><h2>名持ちの一族</h2><p>皇帝から一字を授けられた家を、円の図と一族ごとの説明で紹介します。</p></a>
@@ -94,7 +99,7 @@ a.series-feature:hover h2,a.series-feature:focus-visible h2 {text-decoration:und
 <article class="book-card" data-date="2015-01-31"><div class="info"><h2>薬屋のひとりごと（２）</h2><p><span class="label">著者：</span>日向夏（ひゅうが なつ）</p><p><span class="label">第2巻発売日：</span><time datetime="2015-01-31">2015年1月31日</time></p><p class="summary"><span class="label">概要：</span>壬氏のもとで外廷に勤めることになった猫猫は、宮廷で相次ぐ不可解な事件に挑む。</p></div></article>
 <article class="book-card" data-date="2014-08-29"><div class="info"><h2>薬屋のひとりごと（１）</h2><p><span class="label">著者：</span>日向夏（ひゅうが なつ）</p><p><span class="label">第1巻発売日：</span><time datetime="2014-08-29">2014年8月29日</time></p><p class="summary"><span class="label">概要：</span>後宮で下働きをする猫猫は、皇帝の御子たちが相次いで衰弱する原因を調べ始める。</p></div></article>
 </section>
-<div class="book-tags" aria-label="タグ"><span class="book-tag">薬屋のひとりごと</span><span class="book-tag">日向夏</span><span class="book-tag">ヒーロー文庫</span><span class="book-tag">本・小説</span><span class="book-tag">宮廷ミステリー</span></div>
+<div class="book-tags" aria-label="タグ"><a class="book-tag" href="#kusuriya-series">薬屋のひとりごと</a><a class="book-tag" href="#kusuriya-author">日向夏</a><a class="book-tag" href="#kusuriya-publisher">ヒーロー文庫</a><a class="book-tag" href="books.html">本・小説</a><a class="book-tag" href="#kusuriya-summary">宮廷ミステリー</a></div>
 <div class="article-footer" aria-label="いいね"><div class="like-row"><button type="button" class="like-button" id="likeButton">♡ いいね</button><span><span id="likeCount">0</span> 件</span></div><p id="likeMessage" class="like-message" aria-live="polite"></p></div>
 <p class="back-link"><a href="books-series.html">← シリーズ 本・小説へ戻る</a></p>
 </main>
